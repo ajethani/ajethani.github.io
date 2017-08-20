@@ -8,6 +8,8 @@
     <title>Anil Jethani</title>
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+    <!-- Raleway Font -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Material Design Bootstrap -->
@@ -19,9 +21,9 @@
 
         .bg {
           position: relative;
-          height: 850px;
+          height: 600px;
           width: auto;
-          background: url('./img/personal/los-angeles.jpg');
+          background: url('./img/personal/Portfolio-background1.png');
           background-repeat: no-repeat;
           background-position: center;
           background-attachment: fixed;
@@ -42,23 +44,76 @@
         .name-heading {
           font-size: 64px;
           color: white;
-          font-family: Roboto-Regular;
+          font-family: Raleway;
           font-weight: bold;
+          padding-left: 50px;
+        }
+
+        .description-heading {
+          font-size: 18px;
+          color: white;
+          font-family: Raleway;
+          font-weight: lighter;
+          padding-left: 50px;
         }
 
         .sub-heading {
           font-size: 40px;
           padding-top: 10px;
           font-weight: bolder;
+          font-family: Raleway;
         }
 
         .sub-sub-heading {
           font-size: 20px;
           font-weight: lighter;
+          font-family: Raleway;
+        }
+
+        .h1 {
+        	font-family: Raleway;
+        	font-size: 24px;
+        	font-style: normal;
+        	font-variant: normal;
+        	font-weight: 500;
+        	line-height: 26.4px;
+        }
+        .h3 {
+        	font-family: Raleway;
+        	font-size: 14px;
+        	font-style: normal;
+        	font-variant: normal;
+        	font-weight: 500;
+        	line-height: 15.4px;
+        }
+        .p {
+        	font-family: Raleway;
+        	font-size: 14px;
+        	font-style: normal;
+        	font-variant: normal;
+        	font-weight: 400;
+        	line-height: 20px;
+        }
+        .blockquote {
+        	font-family: Raleway;
+        	font-size: 21px;
+        	font-style: normal;
+        	font-variant: normal;
+        	font-weight: 400;
+        	line-height: 30px;
+        }
+        .pre {
+        	font-family: Raleway;
+        	font-size: 13px;
+        	font-style: normal;
+        	font-variant: normal;
+        	font-weight: 400;
+        	line-height: 18.5714px;
         }
 
     </style>
 
+    <!-- Match address bar color -->
     <meta name="theme-color"
     content="#78909c" />
 
@@ -66,12 +121,10 @@
 
 <body>
 
-    <!-- Start your project here-->
-
     <!-- Navigation Bar-->
     <header>
-        <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-blue-grey scrolling-navbar">
-            <a class="navbar-brand" href="https://ajethani.vsco.co"><strong>AJ</strong></a>
+        <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-indigo scrolling-navbar">
+            <a class="navbar-brand" href="#"><strong>AJ</strong></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -89,27 +142,36 @@
                 </ul>
                 <ul class="navbar-nav nav-flex-icons">
                     <li class="nav-item">
+                      <a class="nav-link" href="mailto:mjethani@ucsd.edu"><i class="fa fa-envelope"></i></a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="https://github.com/ajethani"><i class="fa fa-github"></i></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://www.linkedin.com/in/md-anil-shankar-jethani-327163a6/"><i class="fa fa-linkedin"></i></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="https://ajethani.vsco.co">
+                        <object type="image/svg+xml" data="vsco.svg">
+                          <img src="./img/svg/vsco-edited.svg" width="15" height="15">
+                        </object>
+                      </a>
                     </li>
             </div>
         </nav>
     </header>
     <!-- /Navigation Bar-->
 
-
       <!-- Picture and Subheading -->
-      <div class="bg thumbnail text-center">
+      <div class="bg thumbnail text-left">
           <div class="caption">
-              <div class="animated slideInDown name-heading">ANIL JETHANI</div>
+              <div class="animated slideInDown name-heading">Anil Jethani</div>
 
-              <h5 class="animated slideInLeft white-text">Mobile Developer, Software Engineer</h5>
-              <h5 class="animated slideInLeft white-text">University of California, San Diego</h5>
-              <h5 class="animated slideInLeft white-text">B.S. Computer Science, 2017</h5>
+              <div class="animated fadeInUp description-heading">Mobile developer, Software engineer</div>
+              <div class="animated fadeInUp description-heading">University of California, San Diego</div>
+              <div class="animated fadeInUp description-heading">B.S. Computer science, 2017</div>
               <br />
-              <h6 class="animated infinite pulse white-text ">Site Under Construction</h6>
+              <div class="animated pulse description-heading ">Site under construction</div>
           </div>
       </div>
       <!-- /Picture and Subheading -->
@@ -117,8 +179,8 @@
     <!-- Project Cards-->
     <div class="container-fluid">
       <br />
-      <h3 class="sub-heading">SOME PAST WORK</h3>
-      <h3 class="sub-sub-heading">MORE TO COME</h3>
+      <h3 class="sub-heading">Some Past Work</h3>
+      <h3 class="sub-sub-heading">More To Come</h3>
       <br />
       <div class="row">
 
@@ -204,7 +266,7 @@
     <!-- ORGANIZATIONS -->
     <div class="container-fluid">
         <br />
-        <h3 class="sub-heading"> ORGANIZATIONS </h3>
+        <h3 class="sub-heading"> Organizations </h3>
         <br />
         <div class="row">
             <div class="col-md-4">
@@ -288,8 +350,8 @@
     <!-- CONTACT -->
     <div class="container-fluid">
         <br />
-        <h3 class="sub-heading text-center">GET IN TOUCH</h3>
-        <h3 class="sub-sub-heading text-center">MESSAGE OR MEDIA</h3>
+        <h3 class="sub-heading text-center">Get in touch</h3>
+        <h3 class="sub-sub-heading text-center">Message or Media</h3>
         <br />
         <div class="row">
           <div class="col-md-4"></div>
@@ -333,7 +395,7 @@
     </div>
     <!-- /CONTACT -->
 
-    <!-- /Start your project here-->
+    <!-- /end of project here-->
 
     <!-- SCRIPTS -->
 
