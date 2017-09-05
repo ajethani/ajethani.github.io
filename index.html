@@ -25,8 +25,6 @@ Material Design. Why not say hi to me by emailing < mjethani@ucsd.edu >
   <link href="./css/style.css" type="text/css" rel="stylesheet" />
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
-  <!-- Raleway Font -->
-  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
   <!-- Bootstrap core CSS -->
   <link href="css/bootstrap.min.css" rel="stylesheet">
   <!-- Material Design Bootstrap -->
@@ -68,10 +66,10 @@ Material Design. Why not say hi to me by emailing < mjethani@ucsd.edu >
             <a class="nav-link" href="#home">Home<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
+            <a data-scroll class="nav-link" href="#projects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#organizations">Organizations</a>
+            <a data-scroll class="nav-link" href="#organizations">Organizations</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://drive.google.com/open?id=0BytFihbCa0UmbzZ5VmFfRDA3SVE">Resume</a>
@@ -89,7 +87,7 @@ Material Design. Why not say hi to me by emailing < mjethani@ucsd.edu >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://ajethani.vsco.co">
-                        <object type="image/svg+xml" data="vsco.svg">
+                        <object type="image/svg+xml" data="./img/svg/vsco-edited.svg">
                           <img src="./img/svg/vsco-edited.svg" width="15" height="15">
                         </object>
                       </a>
@@ -100,9 +98,8 @@ Material Design. Why not say hi to me by emailing < mjethani@ucsd.edu >
   </header>
   <!-- /Navigation Bar-->
 
-  <a name="home"></a>
   <!-- Heading picture and Subheading -->
-  <div class="bg text-left">
+  <div id="home" class="bg text-left">
     <div class="caption">
       <div class="animated slideInDown name-heading">Anil Jethani</div>
       <div class="animated fadeInUp description-heading">Mobile developer, Software engineer</div>
@@ -115,9 +112,8 @@ Material Design. Why not say hi to me by emailing < mjethani@ucsd.edu >
   </div>
   <!-- /Picture and Subheading -->
 
-  <a name="projects"></a>
   <!-- Project Cards-->
-  <div class="container-fluid">
+  <div id="projects" class="container-fluid">
     <h3 class="sub-heading">Projects</h3>
     <h3 class="sub-sub-heading">More To Come</h3>
     <br />
@@ -301,9 +297,8 @@ Material Design. Why not say hi to me by emailing < mjethani@ucsd.edu >
   </div>
   <!-- /Project Cards-->
 
-  <a name="organizations"></a>
   <!-- ORGANIZATIONS -->
-  <div class="container-fluid">
+  <div id="organizations" class="container-fluid">
     <h3 class="sub-heading">Organizations</h3>
     <br />
     <div class="row d-flex">
@@ -520,11 +515,13 @@ Material Design. Why not say hi to me by emailing < mjethani@ucsd.edu >
   <!-- JQuery -->
   <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
   <!-- Bootstrap tooltips -->
-  <script type="text/javascript" src="js/tether.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
   <!-- Bootstrap core JavaScript -->
   <script type="text/javascript" src="js/bootstrap.min.js"></script>
   <!-- MDB core JavaScript -->
   <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Initialize smoothScroll -->
+  <script type="text/javascript" src="js/scripts.js"></script>
   <!-- Initialize animation -->
   <script type="text/javascript">
     new WOW().init();
