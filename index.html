@@ -19,7 +19,10 @@ Material Design. Why not say hi to me by emailing < mjethani@ucsd.edu >
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <title>Anil Jethani</title>
+  <!-- Add icon to tab -->
   <link rel="icon" type="image/png" href="./img/personal/icon.png" />
+  <!-- Linking custom style.css -->
+  <link href="./css/style.css" type="text/css" rel="stylesheet" />
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
   <!-- Raleway Font -->
@@ -29,8 +32,12 @@ Material Design. Why not say hi to me by emailing < mjethani@ucsd.edu >
   <!-- Material Design Bootstrap -->
   <link href="css/mdb.min.css" rel="stylesheet">
 
+  <!-- Match address bar color -->
+  <meta name="theme-color" content="#3F51B5" />
+
+
   <style>
-    /* Used for the adjust the background image */
+    /* Header background styling */
 
     .bg {
       position: relative;
@@ -42,56 +49,7 @@ Material Design. Why not say hi to me by emailing < mjethani@ucsd.edu >
       background-attachment: fixed;
       background-size: cover;
     }
-    /* Used by the header */
-
-    .caption {
-      position: absolute;
-      top: 25%;
-      left: 0;
-      width: 100%;
-    }
-    /* Used for the name in the heading */
-
-    .name-heading {
-      font-size: 64px;
-      color: white;
-      font-family: Raleway;
-      font-weight: bold;
-      padding-left: 30px;
-    }
-    /* Used for the description in the heading */
-
-    .description-heading {
-      font-size: 18px;
-      color: white;
-      font-family: Raleway;
-      font-weight: lighter;
-      padding-left: 30px;
-    }
-    /* Used for secondary title */
-
-    .sub-heading {
-      font-family: Raleway;
-      font-size: 40px;
-      font-weight: bolder;
-      padding-top: 20px;
-    }
-    /* Used for thirtiary title */
-
-    .sub-sub-heading {
-      font-family: Raleway;
-      font-size: 20px;
-      font-weight: lighter;
-    }
-    /* Make the height of all the cards equal */
-
-    .d-flex {
-      display: flex;
-    }
   </style>
-
-  <!-- Match address bar color -->
-  <meta name="theme-color" content="#3F51B5" />
 
 </head>
 
@@ -164,11 +122,9 @@ Material Design. Why not say hi to me by emailing < mjethani@ucsd.edu >
     <h3 class="sub-sub-heading">More To Come</h3>
     <br />
     <div class="row d-flex">
-
       <div class="col-md-4 d-flex">
         <!--Card 1-->
         <div class="card wow fadeInUp">
-
           <!--Carousel Wrapper-->
           <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
             <!--Indicators-->
@@ -457,7 +413,7 @@ Material Design. Why not say hi to me by emailing < mjethani@ucsd.edu >
             <h4 class="card-title">Mt. SAC Robotics</h4>
             <p class="card-subtitle">Club</p>
             <!--Text-->
-            <p class="card-text">Programmer for robotics club, a sub-club of the Society of Physics Students, that competed in worlwide competitions such as VEX's. </p>
+            <p class="card-text">Programmer for robotics club, a sub-club of the Society of Physics Students, that competed in worlwide competitions such as VEX's. Focused on sensor reading such as line-following and encoder-reading for the autonomous portion of competitions.</p>
           </div>
           <div class="card-footer">
             <a href="https://sites.google.com/site/mtsaccore/about-us" class="btn btn-primary btn pull-right">MORE</a>
@@ -561,8 +517,6 @@ Material Design. Why not say hi to me by emailing < mjethani@ucsd.edu >
 
   <!-- /end of project here-->
 
-  <!-- SCRIPTS -->
-
   <!-- JQuery -->
   <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
   <!-- Bootstrap tooltips -->
@@ -575,6 +529,7 @@ Material Design. Why not say hi to me by emailing < mjethani@ucsd.edu >
   <script type="text/javascript">
     new WOW().init();
   </script>
+
 </body>
 
 </html>
