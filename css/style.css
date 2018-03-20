@@ -6,6 +6,7 @@
   left: 0;
   width: 100%;
 }
+
 /* Used for the name in the heading */
 
 .name-heading {
@@ -24,6 +25,12 @@
   font-weight: lighter;
   padding-left: 30px;
 }
+/* make font smaller for details */
+
+.description-heading i {
+  font-size: 12px;
+}
+
 /* Used for secondary title */
 
 .sub-heading {
