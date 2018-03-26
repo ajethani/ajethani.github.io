@@ -1,0 +1,284 @@
+/* container-fluid added 15px margin by default */
+/* need it for responsive mobile */
+
+h1 {
+  font-family: Raleway;
+  font-size: 4.875rem;
+  font-weight: bold;
+  line-height: 26.4px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 5rem;
+}
+
+h2 {
+  font-family: Raleway;
+  font-size: 2.5rem;
+  font-style: bolder;
+  font-weight: 600;
+  line-height: 2rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 2.25rem;
+}
+
+h3 {
+  font-family: Raleway;
+  font-size: 2.125rem;
+  font-weight: bolder;
+  line-height: 2.25rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  margin-bottom: 2.25rem;
+}
+
+h5 {
+  font-family: Raleway;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 2.25rem;
+  margin-top: 2.25rem;
+  margin-bottom: 0;
+  margin-left: 10rem;
+  margin-right:10rem;
+}
+
+p {
+  font-family: Raleway;
+  font-size: 1.500rem;
+  line-height: 2rem;
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+li {
+  font-family: Raleway;
+  font-size: 1.500rem;
+  line-height: 2rem;
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+blockquote {
+  font-family: Raleway;
+  font-size: 21px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+pre {
+  font-family: Raleway;
+  font-size: 13px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 400;
+  line-height: 18.5714px;
+}
+
+.portrait {
+  max-width: 300px;
+  height: auto;
+}
+
+.landscape {
+  max-width: 500px;
+  height: auto;
+}
+
+.row-margin {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.center-object {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+.v-allign {
+  vertical-align: middle;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+}
+
+.commercialtext p {
+  font-weight: 350;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%   !important;
+  height: auto  !important;
+}
+
+.w-100 {
+  width: 100%;
+  height: auto;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.case-block {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
+.dark {
+  background-color: #1A1E23;
+  color: #F3F5F6;
+}
+
+.mid {
+  background-color: #F4F6F7;
+}
+
+.pic-margin {
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+#navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#navbar li {
+  float: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold;
+}
+
+#navbar li a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+#navbar li a:hover {
+}
+
+.case-block-small {
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#logo-card p {
+  margin: 0px;
+}
+
+#logo-creation h2 {
+  margin-bottom: 3rem;
+}
+
+#personas h2 {
+  margin-bottom: 3rem;
+}
+
+#storyboards h2 {
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+}
+
+#interactive-proto h2 {
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 0px) {
+
+  h1 {
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 2.25rem;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 2.25rem;
+  }
+
+  h2 {
+    font-family: Raleway;
+    font-size: 2.5rem;
+    font-style: bolder;
+    font-weight: 600;
+    line-height: 2.25rem;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 2.25rem;
+  }
+
+  h3 {
+    font-family: Raleway;
+    font-size: 2.125rem;
+    font-weight: bolder;
+    line-height: 2.25rem;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 2.25rem;
+  }
+
+  h5 {
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 2.25rem;
+    margin-top: 2.25rem;
+    margin-bottom: 0;
+    margin-left: 25px;
+    margin-right:25px;
+  }
+
+  p {
+    font-family: Raleway;
+    font-size: 1.500rem;
+    line-height: 2rem;
+    margin-top: 2.25rem;
+    margin-bottom: 2.25rem;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  li {
+    font-family: Raleway;
+    font-size: 1.500rem;
+    line-height: 2rem;
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .row-margin {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+
+  .pic-margin {
+    margin-left: 25px;
+    margin-right: 25px;
+  }
+}
