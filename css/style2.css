@@ -109,12 +109,6 @@ pre {
   vertical-align: middle;
 }
 
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-  display: flex;
-}
-
 .commercialtext p {
   font-weight: 350;
   font-style: italic;
