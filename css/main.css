@@ -1,0 +1,520 @@
+/* container-fluid added 15px margin by default */
+
+/* need it for responsive mobile */
+
+h1 {
+  margin-right: 10rem;
+  margin-bottom: 5rem;
+  margin-left: 10rem;
+
+  font-family: Raleway;
+  font-size: 4.875rem;
+  font-weight: bold;
+  line-height: 26.4px;
+}
+
+h2 {
+  margin-right: 10rem;
+  margin-bottom: 2.25rem;
+  margin-left: 10rem;
+
+  font-family: Raleway;
+  font-size: 2.5rem;
+  font-weight: 600;
+  font-style: bolder;
+  line-height: 2rem;
+}
+
+h3 {
+  margin-right: 10rem;
+  margin-bottom: 2.25rem;
+  margin-left: 10rem;
+
+  font-family: Raleway;
+  font-size: 2.125rem;
+  font-weight: bolder;
+  line-height: 2.25rem;
+}
+
+h5 {
+  margin-top: 2.25rem;
+  margin-right: 10rem;
+  margin-bottom: 0;
+  margin-left: 10rem;
+
+  font-family: Raleway;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 2.25rem;
+}
+
+p {
+  margin-top: 2.25rem;
+  margin-right: 10rem;
+  margin-bottom: 2.25rem;
+  margin-left: 10rem;
+
+  font-family: Raleway;
+  font-size: 1.500rem;
+  line-height: 2rem;
+}
+
+li {
+  margin-right: 10rem;
+  margin-left: 10rem;
+
+  font-family: Raleway;
+  font-size: 1.500rem;
+  line-height: 2rem;
+}
+
+blockquote {
+  font-family: Raleway;
+  font-size: 21px;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 30px;
+}
+
+pre {
+  font-family: Raleway;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 18.5714px;
+}
+
+a:hover {
+  transition: all .1s ease-in-out;
+
+  color: #2962FF;
+
+  font-weight: 700;
+}
+
+.portrait {
+  max-width: 300px;
+  height: auto;
+}
+
+.landscape {
+  max-width: 500px;
+  height: auto;
+}
+
+.row-margin {
+  margin-right: 10rem;
+  margin-left: 10rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.center-object {
+  display: block;
+
+  width: 70%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.v-allign {
+  vertical-align: middle;
+}
+
+.commercialtext p {
+  font-size: 18px;
+  font-weight: 350;
+  font-style: italic;
+  line-height: 40px;
+}
+
+.title h2, .title p {
+  margin-right: 0rem;
+  margin-bottom: 0rem;
+  margin-left: 0rem;
+}
+
+.typed-cursor {
+  animation: blink .75s infinite;
+
+  opacity: 1;
+  color: #2962FF;
+
+  font-size: 2.25rem;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: .5;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+video {
+  display: block;
+
+  width: 80% !important;
+  height: auto !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.w-100 {
+  width: 100%;
+  height: auto;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.case-block {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
+.dark {
+  color: #F3F5F6;
+  background-color: #1A1E23;
+}
+
+.mid {
+  background-color: #F4F6F7;
+}
+
+.accent {
+  background-color: #2962FF;
+}
+
+.accent h3, .accent p {
+  color: white;
+}
+
+.pic-margin {
+  margin-right: 10rem;
+  margin-left: 10rem;
+}
+
+.w3-col p {
+  margin-top: 2.25rem;
+  margin-right: 2rem;
+  margin-bottom: 2.25rem;
+  margin-left: 2rem;
+
+  color: #93a4aa;
+
+  font-family: Raleway;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.w3-col h3 {
+  margin-right: 2rem;
+  margin-bottom: 0rem;
+  margin-left: 2rem;
+
+  font-family: Raleway;
+  font-size: 2.125rem;
+  font-weight: bolder;
+  line-height: 2.25rem;
+}
+
+.w3-col h5 {
+  margin-top: 0rem;
+  margin-right: 2rem;
+  margin-bottom: 0;
+  margin-left: 2rem;
+
+  font-family: Raleway;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 2.25rem;
+}
+
+#navbar ul {
+  overflow: hidden;
+
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+#navbar li {
+  float: center;
+
+  margin-right: auto;
+  margin-left: auto;
+
+  font-weight: bold;
+}
+
+#navbar li a {
+  display: block;
+
+  padding: 16px;
+
+  text-align: center;
+  text-decoration: none;
+}
+
+#navbar li a:hover {}
+
+.case-block-small {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+#logo-card p {
+  margin: 0px;
+}
+
+#logo-creation h2 {
+  margin-bottom: 3rem;
+}
+
+#personas h2 {
+  margin-bottom: 3rem;
+}
+
+#storyboards h2 {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+#interactive-proto h2 {
+  margin-bottom: 3rem;
+}
+
+#interested p {
+  line-height: 1.5rem;
+}
+
+.icon-size {
+  width: 35px;
+  height: 35px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn-primary {
+  margin-left: 2rem;
+  padding-top: .5rem;
+  padding-right: 1.5rem;
+  padding-bottom: .5rem;
+  padding-left: 1.5rem;
+
+  transition: all .2s ease-in-out;
+  text-transform: uppercase;
+
+  color: #1A1E23;
+  border: .1rem;
+  border-style: solid;
+  border-color: #2962FF;
+  border-radius: 2rem;
+  background-color: transparent;
+
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+
+  transition: all .2s ease-in-out;
+
+  color: white;
+  border-color: #2962FF;
+  background-color: #2962FF;
+}
+
+.btn-secondary {
+  margin-left: 1.5rem;
+  padding-top: .5rem;
+  padding-right: 1.5rem;
+  padding-bottom: .5rem;
+  padding-left: 1.5rem;
+
+  transition: all .2s ease-in-out;
+  text-transform: uppercase;
+
+  color: #1A1E23;
+  border: .1rem;
+  border-style: solid;
+  border-color: #1A1E23;
+  border-radius: 2rem;
+  background-color: transparent;
+
+  font-weight: 600;
+}
+
+.btn-secondary:hover {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+
+  transition: all .2s ease-in-out;
+
+  color: #2962FF;
+  border-color: #1A1E23;
+  background-color: #1A1E23;
+}
+
+.btn-round {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  padding-top: .75rem;
+  padding-right: 1rem;
+  padding-bottom: .75rem;
+  padding-left: 1rem;
+
+  transition: all .2s ease-in-out;
+
+  border: .1rem;
+  border-style: solid;
+  border-color: #424242;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.btn-round:hover {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  padding-top: 1.25rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1.5rem;
+
+  transition: all .2s ease-in-out;
+
+  color: #1A1E23;
+  border: .1rem;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50%;
+  background-color: white;
+}
+
+#links {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+@media only screen and (max-width: 767px) and (min-width: 0px) {
+  h1 {
+    margin-right: 25px;
+    margin-bottom: 2.25rem;
+    margin-left: 25px;
+
+    font-family: Raleway;
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 2.25rem;
+  }
+  h2 {
+    margin-right: 25px;
+    margin-bottom: 2.25rem;
+    margin-left: 25px;
+
+    font-family: Raleway;
+    font-size: 2rem;
+    font-weight: 600;
+    font-style: bolder;
+    line-height: 2.25rem;
+  }
+  h3 {
+    margin-right: 25px;
+    margin-bottom: 2.25rem;
+    margin-left: 25px;
+
+    font-family: Raleway;
+    font-size: 2.125rem;
+    font-weight: bolder;
+    line-height: 2.25rem;
+  }
+  h5 {
+    margin-top: 2.25rem;
+    margin-right: 25px;
+    margin-bottom: 0;
+    margin-left: 25px;
+
+    font-family: Raleway;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 2.25rem;
+  }
+  p {
+    margin-top: 2.25rem;
+    margin-right: 25px;
+    margin-bottom: 2.25rem;
+    margin-left: 25px;
+
+    font-family: Raleway;
+    font-size: 1.500rem;
+    line-height: 2rem;
+  }
+  li {
+    margin-right: 25px;
+    margin-left: 25px;
+
+    font-family: Raleway;
+    font-size: 1.500rem;
+    line-height: 2rem;
+  }
+  .row-margin {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .pic-margin {
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .title h2, .title p {
+    margin-right: .25rem;
+    margin-bottom: 0rem;
+    margin-left: .25rem;
+  }
+  #interested p {
+    font-size: 1rem;
+  }
+  .btn-primary, .btn-secondary {
+    display: flex;
+    justify-content: center;
+
+    margin-right: 2rem;
+    margin-left: 2rem;
+  }
+  .btn-round {
+    margin-right: .5rem;
+    margin-left: .5rem;
+    padding-top: .5rem;
+    padding-right: .75rem;
+    padding-bottom: .5rem;
+    padding-left: .75rem;
+
+    transition: all .2s ease-in-out;
+
+    border: .1rem;
+    border-style: solid;
+    border-color: #424242;
+    border-radius: 50%;
+    background-color: transparent;
+  }
+}
