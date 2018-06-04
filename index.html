@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <!-- W3.css -->
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- font awesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <!-- Raleway Font -->
@@ -24,12 +26,11 @@
 
 <body>
   <div class="center v-allign case-block dark title">
-    <h2>Hi, I'm Anil.</h2>
+    <h2>Hi, I'm Anil 👋</h2>
     <h2>I design & build</h2>
     <h2 class="typed" style="display: inline-block;"></h2>
-    <p>Currently Employed at <a href="https://www.labcorp.com/" target="_blank">LabCorp</a>- Tustin, California</p>
-    <p style="margin-bottom:3rem;">Learn more about what I do</p>
-    <a class="btn-round" target="_blank" title="Resume" href="https://drive.google.com/file/d/1oebk82mh2T5rBf-ubSdQNLtOTQQJiCAl/view?usp=sharing"><i class="far fa-file-pdf"></i></a>
+    <p>Currently Employed at <a style="color: #2962FF" href="https://www.labcorp.com/" target="_blank">LabCorp</a>- Tustin, California</p>
+    <p>Learn more about what I do</p>
   </div>
 
   <div id="expertise" class="center case-block">
@@ -96,31 +97,21 @@
     </div>
   </div>
 
-  <div id="organization" class="case-block">
+  <div id="skills" class="case-block">
     <div class="center">
-      <h2>Experiences</h2>
+      <h2>Skills</h2>
     </div>
     <div class="w3-row-padding">
-      <div class="w3-col l4 m4 s12">
-        <div class="w3-card-4">
-          <img class="w-100" src="./img/asset/disney.png" alt="">
-          <div class="w3-container">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          </div>
-          <div class="center">
-            <a href="#">test</a>
-          </div>
-        </div>
-      </div>
+      <canvas id="myChart"></canvas>
     </div>
   </div>
 
   <div id="interested" class="case-block accent center">
-    <h3>Let's work together</h3>
+    <h3>Let's work together 🤝</h3>
     <p>I am currently a UI/UX and front end developer at LabCorp.</p>
     <p>If you like what you see, please take a minute to tell me about it</p>
     <!-- <p>I am currently looking for an entry level position in UI/UX and front end developer</p> -->
-    <a href="mailto:ajethani11@gmail.com" target="_blank" class="btn-secondary">say hello</a>
+    <a href="mailto:ajethani11@gmail.com" target="_blank" class="btn-secondary">say hi</a>
   </div>
   <div class="case-block-small dark center">
     <img class="icon-size" src="./img/asset/icon2.png">
@@ -134,6 +125,7 @@
     <h5 style="color: #93a4aa;">Handmade by me © 2018</h5>
   </div>
 
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
   <script type="text/javascript" src="./js/typed.js"></script>
   <script type="text/javascript">
     var typed = new Typed('.typed', {
@@ -156,6 +148,37 @@
     });
   </script>
 
+  <script type="text/javascript">
+    var ctx = document.getElementById('myChart').getContext('2d');
+    var chart = new Chart(ctx, {
+      // The type of chart we want to create
+      type: 'bar',
+
+      // The data for our dataset
+      data: {
+        labels: ["HTML", "CSS", "JS", "Java", "Python"],
+        datasets: [{
+          label: "Confident Level",
+          backgroundColor: '#1A1E23',
+          borderColor: '#1A1E23',
+          hoverBackgroundColor: '#2962FF',
+          hoverBorderColor: '#2962FF',
+          data: [95, 90, 50, 70, 40],
+        }]
+      },
+
+      // Configuration options go here
+      options: {
+        scales: {
+          yAxes: [{
+            ticks: {
+              beginAtZero: true
+            }
+          }]
+        }
+      }
+    });
+  </script>
 </body>
 
 </html>

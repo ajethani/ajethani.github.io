@@ -132,10 +132,18 @@ a:hover {
   line-height: 40px;
 }
 
-.title h2, .title p {
+.title h2 {
   margin-right: 0rem;
   margin-bottom: 0rem;
   margin-left: 0rem;
+}
+
+.title p {
+  margin-bottom: 2rem;
+}
+
+.title-resume {
+  margin-top: 4rem;
 }
 
 .typed-cursor {
@@ -517,4 +525,4 @@ a:hover {
     border-radius: 50%;
     background-color: transparent;
   }
-}
+} /* end of media */
