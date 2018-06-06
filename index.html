@@ -18,6 +18,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
   <!-- Raleway Font -->
   <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Raleway" />
+  <!-- Scroll Reveal -->
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
   <!-- Linking custom style.css -->
   <link href="./css/main.css" type="text/css" rel="stylesheet" />
   <!-- Match address bar color -->
@@ -25,7 +27,7 @@
 </head>
 
 <body>
-  <div class="center v-allign case-block dark title">
+  <div id="title" class="center v-allign case-block dark title">
     <h2>Hi, I'm Anil 👋</h2>
     <h2>I design & build</h2>
     <h2 class="typed" style="display: inline-block;"></h2>
@@ -68,7 +70,7 @@
       <div class="w3-col l6 m6 s12">
         <img class="w-100" style="border-radius:2rem;" src="./img/asset/sharedrobe/projheader.png" alt="">
       </div>
-      <div class="w3-col l6 m6 s12">
+      <div id="sharedrobe" class="w3-col l6 m6 s12">
         <h3>ShareDrobe</h3>
         <h5>UI/UX Design</h5>
         <p>
@@ -85,7 +87,7 @@
       <div class="w3-col l6 m6 s12">
         <img class="w-100" style="border-radius:2rem;" src="./img/asset/finalscalc.png" alt="">
       </div>
-      <div class="w3-col l6 m6 s12">
+      <div id="finalscalc" class="w3-col l6 m6 s12">
         <h3>Finals Calculator</h3>
         <h5>Android App</h5>
         <p>
@@ -101,7 +103,7 @@
     <div class="center">
       <h2>Skills</h2>
     </div>
-    <div class="w3-row-padding">
+    <div id="chart">
       <canvas id="myChart"></canvas>
     </div>
   </div>
@@ -111,7 +113,7 @@
     <p>I am currently a UI/UX and front end developer at LabCorp.</p>
     <p>If you like what you see, please take a minute to tell me about it</p>
     <!-- <p>I am currently looking for an entry level position in UI/UX and front end developer</p> -->
-    <a href="mailto:ajethani11@gmail.com" target="_blank" class="btn-secondary">say hi</a>
+    <a id="sayhi" href="mailto:ajethani11@gmail.com" target="_blank" class="btn-secondary">say hi</a>
   </div>
   <div class="case-block-small dark center">
     <img class="icon-size" src="./img/asset/icon2.png">
@@ -127,6 +129,16 @@
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
   <script type="text/javascript" src="./js/typed.js"></script>
+  <script type="text/javascript">
+    window.sr = ScrollReveal({ reset: true });
+    sr.reveal('#chart', { duration: 700 });
+    sr.reveal('#finalscalc', { duration: 700 });
+    sr.reveal('#sharedrobe', { duration: 700 });
+    sr.reveal('#links', { duration: 1500 });
+    sr.reveal('.w-100', { duration: 400 });
+
+
+  </script>
   <script type="text/javascript">
     var typed = new Typed('.typed', {
       strings: ['user interfaces',
