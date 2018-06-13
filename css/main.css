@@ -9,7 +9,7 @@ h1 {
   font-family: Raleway;
   font-size: 4.875rem;
   font-weight: bold;
-  line-height: 26.4px;
+  line-height: 4rem;
 }
 
 h2 {
@@ -80,8 +80,13 @@ pre {
   line-height: 18.5714px;
 }
 
+a {
+  text-decoration: underline;
+}
+
 a:hover {
   transition: all .1s ease-in-out;
+  text-decoration: none;
   color: #2962FF;
   font-weight: 700;
 }
@@ -121,53 +126,6 @@ a:hover {
   font-weight: 350;
   font-style: italic;
   line-height: 40px;
-}
-
-.title h2 {
-  margin-right: 0rem;
-  margin-bottom: 0rem;
-  margin-left: 0rem;
-}
-
-.title p {
-  margin-bottom: 2rem;
-}
-
-.title-resume {
-  margin-top: 4rem;
-}
-
-.typed-cursor {
-  animation: blink .75s infinite;
-  opacity: 1;
-  color: #2962FF;
-  font-size: 2.25rem;
-}
-
-@keyframes blink {
-  0% {
-    opacity: 1;
-  }
-  25% {
-    opacity: .5;
-  }
-  50% {
-    opacity: 0;
-  }
-  75% {
-    opacity: .5;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
-video {
-  display: block;
-  width: 80% !important;
-  height: auto !important;
-  margin-right: auto;
-  margin-left: auto;
 }
 
 .w-100 {
@@ -239,6 +197,162 @@ video {
   line-height: 2.25rem;
 }
 
+.icon-size {
+  width: 35px;
+  height: 35px;
+}
+
+.btn-primary {
+  margin-left: 2rem;
+  padding-top: .5rem;
+  padding-right: 1.5rem;
+  padding-bottom: .5rem;
+  padding-left: 1.5rem;
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1A1E23;
+  border: .1rem;
+  border-style: solid;
+  border-color: #2962FF;
+  border-radius: 2rem;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.btn-primary:hover {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+  color: white;
+  border-color: #2962FF;
+  background-color: #2962FF;
+}
+
+.btn-secondary {
+  margin-left: 1.5rem;
+  padding-top: .5rem;
+  padding-right: 1.5rem;
+  padding-bottom: .5rem;
+  padding-left: 1.5rem;
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #1A1E23;
+  border: .1rem;
+  border-style: solid;
+  border-color: #1A1E23;
+  border-radius: 2rem;
+  background-color: transparent;
+  font-weight: 600;
+}
+
+.btn-secondary:hover {
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+  color: #2962FF;
+  border-color: #1A1E23;
+  background-color: #1A1E23;
+}
+
+.btn-round {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  padding-top: .75rem;
+  padding-right: 1rem;
+  padding-bottom: .75rem;
+  padding-left: 1rem;
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+  border: .1rem;
+  border-style: solid;
+  border-color: #424242;
+  border-radius: 50%;
+  background-color: transparent;
+}
+
+.btn-round:hover {
+  margin-right: 1rem;
+  margin-left: 1rem;
+  padding-top: 1.25rem;
+  padding-right: 1.5rem;
+  padding-bottom: 1.25rem;
+  padding-left: 1.5rem;
+  transition: all .2s ease-in-out;
+  text-decoration: none;
+  color: #1A1E23;
+  border: .1rem;
+  border-style: solid;
+  border-color: white;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.typed-cursor {
+  animation: blink .75s infinite;
+  opacity: 1;
+  color: #2962FF;
+  font-size: 4.875rem;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: .5;
+  }
+  50% {
+    opacity: 0;
+  }
+  75% {
+    opacity: .5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#title h1 {
+  margin-right: 0rem;
+  margin-bottom: 0rem;
+  margin-left: 0rem;
+  text-align: center;
+}
+
+#title p {
+  margin-bottom: 2rem;
+}
+
+#about {
+  padding-bottom: 4rem;
+}
+
+#about h3 {
+  -webkit-animation-duration: 2s;
+  -moz-animation-duration: 2s;
+  -ms-animation-duration: 2s;
+  -o-animation-duration: 2s;
+}
+
+#about p {
+  -webkit-animation-duration: 8s;
+  -moz-animation-duration: 8s;
+  -ms-animation-duration: 8s;
+  -o-animation-duration: 8s;
+}
+
+video {
+  display: block;
+  width: 80% !important;
+  height: auto !important;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 #navbar ul {
   overflow: hidden;
   margin: 0;
@@ -292,101 +406,19 @@ video {
   line-height: 1.5rem;
 }
 
-.icon-size {
-  width: 35px;
-  height: 35px;
-}
-
-a:hover {
-  text-decoration: none;
-}
-
-.btn-primary {
-  margin-left: 2rem;
-  padding-top: .5rem;
-  padding-right: 1.5rem;
-  padding-bottom: .5rem;
-  padding-left: 1.5rem;
-  transition: all .2s ease-in-out;
-  text-transform: uppercase;
-  color: #1A1E23;
-  border: .1rem;
-  border-style: solid;
-  border-color: #2962FF;
-  border-radius: 2rem;
-  background-color: transparent;
-  font-weight: 600;
-}
-
-.btn-primary:hover {
-  padding-right: 2.5rem;
-  padding-left: 2.5rem;
-  transition: all .2s ease-in-out;
-  color: white;
-  border-color: #2962FF;
-  background-color: #2962FF;
-}
-
-.btn-secondary {
-  margin-left: 1.5rem;
-  padding-top: .5rem;
-  padding-right: 1.5rem;
-  padding-bottom: .5rem;
-  padding-left: 1.5rem;
-  transition: all .2s ease-in-out;
-  text-transform: uppercase;
-  color: #1A1E23;
-  border: .1rem;
-  border-style: solid;
-  border-color: #1A1E23;
-  border-radius: 2rem;
-  background-color: transparent;
-  font-weight: 600;
-}
-
-.btn-secondary:hover {
-  padding-right: 2.5rem;
-  padding-left: 2.5rem;
-  transition: all .2s ease-in-out;
-  color: #2962FF;
-  border-color: #1A1E23;
-  background-color: #1A1E23;
-}
-
-.btn-round {
-  margin-right: 1rem;
-  margin-left: 1rem;
-  padding-top: .75rem;
-  padding-right: 1rem;
-  padding-bottom: .75rem;
-  padding-left: 1rem;
-  transition: all .2s ease-in-out;
-  border: .1rem;
-  border-style: solid;
-  border-color: #424242;
-  border-radius: 50%;
-  background-color: transparent;
-}
-
-.btn-round:hover {
-  margin-right: 1rem;
-  margin-left: 1rem;
-  padding-top: 1.25rem;
-  padding-right: 1.5rem;
-  padding-bottom: 1.25rem;
-  padding-left: 1.5rem;
-  transition: all .2s ease-in-out;
-  color: #1A1E23;
-  border: .1rem;
-  border-style: solid;
-  border-color: white;
-  border-radius: 50%;
-  background-color: white;
-}
-
 #links {
   margin-top: 3rem;
   margin-bottom: 3rem;
+}
+
+#about h3 {
+  margin-top: 0rem;
+}
+
+#about p {
+  margin-top: 0rem;
+  font-size: 1.25rem;
+  line-height: 2.00rem;
 }
 
 @media only screen and (max-width: 767px) and (min-width: 0px) {
@@ -395,7 +427,7 @@ a:hover {
     margin-bottom: 2.25rem;
     margin-left: 25px;
     font-family: Raleway;
-    font-size: 32px;
+    font-size: 2.5rem;
     font-weight: bold;
     line-height: 2.25rem;
   }
@@ -452,14 +484,6 @@ a:hover {
     margin-right: 25px;
     margin-left: 25px;
   }
-  .title h2, .title p {
-    margin-right: .25rem;
-    margin-bottom: 0rem;
-    margin-left: .25rem;
-  }
-  #interested p {
-    font-size: 1rem;
-  }
   .btn-primary, .btn-secondary {
     display: flex;
     justify-content: center;
@@ -479,6 +503,47 @@ a:hover {
     border-color: #424242;
     border-radius: 50%;
     background-color: transparent;
+  }
+  .typed-cursor {
+    animation: blink .75s infinite;
+    opacity: 1;
+    color: #2962FF;
+    font-size: 2.5rem;
+  }
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    25% {
+      opacity: .5;
+    }
+    50% {
+      opacity: 0;
+    }
+    75% {
+      opacity: .5;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  #title h1 {
+    margin-right: .25rem;
+    margin-bottom: 0rem;
+    margin-left: .25rem;
+    text-align: center;
+  }
+  #title p {
+    margin-right: .25rem;
+    margin-bottom: 0rem;
+    margin-left: .25rem;
+  }
+  #interested p, #about p {
+    font-size: 1rem;
+    line-height: 1.50rem;
+  }
+  #about h3 {
+    font-size: 1.75rem;
   }
 }
 
