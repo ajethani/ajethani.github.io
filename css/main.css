@@ -1,11 +1,9 @@
-/* container-fluid added 15px margin by default */
-
-/* need it for responsive mobile */
-
+/* Anil's custom CSS */
 h1 {
   margin-right: 10rem;
   margin-bottom: 5rem;
   margin-left: 10rem;
+
   font-family: Raleway;
   font-size: 4.875rem;
   font-weight: bold;
@@ -16,6 +14,7 @@ h2 {
   margin-right: 10rem;
   margin-bottom: 2.25rem;
   margin-left: 10rem;
+
   font-family: Raleway;
   font-size: 2.5rem;
   font-weight: 600;
@@ -27,6 +26,7 @@ h3 {
   margin-right: 10rem;
   margin-bottom: 2.25rem;
   margin-left: 10rem;
+
   font-family: Raleway;
   font-size: 2.125rem;
   font-weight: bolder;
@@ -38,6 +38,7 @@ h5 {
   margin-right: 10rem;
   margin-bottom: 0;
   margin-left: 10rem;
+
   font-family: Raleway;
   font-size: 1rem;
   font-weight: bold;
@@ -49,6 +50,7 @@ p {
   margin-right: 10rem;
   margin-bottom: 2.25rem;
   margin-left: 10rem;
+
   font-family: Raleway;
   font-size: 1.500rem;
   line-height: 2rem;
@@ -57,6 +59,7 @@ p {
 li {
   margin-right: 10rem;
   margin-left: 10rem;
+
   font-family: Raleway;
   font-size: 1.500rem;
   line-height: 2rem;
@@ -84,10 +87,12 @@ a {
   text-decoration: underline;
 }
 
-a:hover {
+a:hover, a:focus {
   transition: all .1s ease-in-out;
   text-decoration: none;
+
   color: #2962FF;
+
   font-weight: 700;
 }
 
@@ -112,13 +117,14 @@ a:hover {
 
 .center-object {
   display: block;
+
   width: 70%;
   margin-right: auto;
   margin-left: auto;
 }
 
 .v-allign {
-  vertical-align: middle;
+  vertical-align: center;
 }
 
 .commercialtext p {
@@ -130,6 +136,16 @@ a:hover {
 
 .w-100 {
   width: 100%;
+  height: auto;
+}
+
+.w-50 {
+  width: 50%;
+  height: auto;
+}
+
+.w-25 {
+  width: 25%;
   height: auto;
 }
 
@@ -170,16 +186,19 @@ a:hover {
   margin-right: 2rem;
   margin-bottom: 2.25rem;
   margin-left: 2rem;
+
   color: #93a4aa;
+
   font-family: Raleway;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .w3-col h3 {
   margin-right: 2rem;
   margin-bottom: 0rem;
   margin-left: 2rem;
+
   font-family: Raleway;
   font-size: 2.125rem;
   font-weight: bolder;
@@ -191,6 +210,7 @@ a:hover {
   margin-right: 2rem;
   margin-bottom: 0;
   margin-left: 2rem;
+
   font-family: Raleway;
   font-size: 1rem;
   font-weight: bold;
@@ -202,57 +222,67 @@ a:hover {
   height: 35px;
 }
 
-.btn-primary {
+.btn-primary, .btn-primary:focus {
   margin-left: 2rem;
   padding-top: .5rem;
   padding-right: 1.5rem;
   padding-bottom: .5rem;
   padding-left: 1.5rem;
+
   transition: all .2s ease-in-out;
   text-decoration: none;
   text-transform: uppercase;
+
   color: #1A1E23;
   border: .1rem;
   border-style: solid;
   border-color: #2962FF;
   border-radius: 2rem;
   background-color: transparent;
+
   font-weight: 600;
 }
 
 .btn-primary:hover {
   padding-right: 2.5rem;
   padding-left: 2.5rem;
+
   transition: all .2s ease-in-out;
   text-decoration: none;
+
   color: white;
   border-color: #2962FF;
   background-color: #2962FF;
 }
 
-.btn-secondary {
+.btn-secondary, .btn-secondary:focus {
   margin-left: 1.5rem;
   padding-top: .5rem;
   padding-right: 1.5rem;
   padding-bottom: .5rem;
   padding-left: 1.5rem;
+
   transition: all .2s ease-in-out;
   text-decoration: none;
   text-transform: uppercase;
+
   color: #1A1E23;
   border: .1rem;
   border-style: solid;
   border-color: #1A1E23;
   border-radius: 2rem;
   background-color: transparent;
+
   font-weight: 600;
 }
 
 .btn-secondary:hover {
   padding-right: 2.5rem;
   padding-left: 2.5rem;
+
   transition: all .2s ease-in-out;
   text-decoration: none;
+
   color: #2962FF;
   border-color: #1A1E23;
   background-color: #1A1E23;
@@ -265,8 +295,10 @@ a:hover {
   padding-right: 1rem;
   padding-bottom: .75rem;
   padding-left: 1rem;
+
   transition: all .2s ease-in-out;
   text-decoration: none;
+
   border: .1rem;
   border-style: solid;
   border-color: #424242;
@@ -281,8 +313,10 @@ a:hover {
   padding-right: 1.5rem;
   padding-bottom: 1.25rem;
   padding-left: 1.5rem;
+
   transition: all .2s ease-in-out;
   text-decoration: none;
+
   color: #1A1E23;
   border: .1rem;
   border-style: solid;
@@ -293,8 +327,10 @@ a:hover {
 
 .typed-cursor {
   animation: blink .75s infinite;
+
   opacity: 1;
   color: #2962FF;
+
   font-size: 4.875rem;
 }
 
@@ -320,6 +356,7 @@ a:hover {
   margin-right: 0rem;
   margin-bottom: 0rem;
   margin-left: 0rem;
+
   text-align: center;
 }
 
@@ -347,6 +384,7 @@ a:hover {
 
 video {
   display: block;
+
   width: 80% !important;
   height: auto !important;
   margin-right: auto;
@@ -355,26 +393,35 @@ video {
 
 #navbar ul {
   overflow: hidden;
-  margin: 0;
-  padding: 0;
+
+  margin-top: 3rem;
+  margin-right: 2rem;
+
   list-style-type: none;
 }
 
-#navbar li {
-  float: center;
-  margin-right: auto;
-  margin-left: auto;
+#navbar p {
+  margin-top: 3rem;
+  margin-right: 0rem;
+  margin-bottom: 0rem;
+  margin-left: 0rem;
+}
+
+#navbar ul li {
+  float: right;
+
+  margin-right: 1rem;
+  margin-left: 1rem;
+
   font-weight: bold;
 }
 
-#navbar li a {
+#navbar ul li a {
   display: block;
-  padding: 16px;
+
   text-align: center;
   text-decoration: none;
 }
-
-#navbar li a:hover {}
 
 .case-block-small {
   padding-top: 3rem;
@@ -417,15 +464,17 @@ video {
 
 #about p {
   margin-top: 0rem;
+
   font-size: 1.25rem;
   line-height: 2.00rem;
 }
-
-@media only screen and (max-width: 767px) and (min-width: 0px) {
+/*originally 767px */
+@media only screen and (max-width: 1062px) and (min-width: 0px) {
   h1 {
     margin-right: 25px;
     margin-bottom: 2.25rem;
     margin-left: 25px;
+
     font-family: Raleway;
     font-size: 2.5rem;
     font-weight: bold;
@@ -435,6 +484,7 @@ video {
     margin-right: 25px;
     margin-bottom: 2.25rem;
     margin-left: 25px;
+
     font-family: Raleway;
     font-size: 2rem;
     font-weight: 600;
@@ -445,6 +495,7 @@ video {
     margin-right: 25px;
     margin-bottom: 2.25rem;
     margin-left: 25px;
+
     font-family: Raleway;
     font-size: 2.125rem;
     font-weight: bolder;
@@ -455,6 +506,7 @@ video {
     margin-right: 25px;
     margin-bottom: 0;
     margin-left: 25px;
+
     font-family: Raleway;
     font-size: 1rem;
     font-weight: bold;
@@ -465,6 +517,7 @@ video {
     margin-right: 25px;
     margin-bottom: 2.25rem;
     margin-left: 25px;
+
     font-family: Raleway;
     font-size: 1.500rem;
     line-height: 2rem;
@@ -472,6 +525,7 @@ video {
   li {
     margin-right: 25px;
     margin-left: 25px;
+
     font-family: Raleway;
     font-size: 1.500rem;
     line-height: 2rem;
@@ -487,6 +541,7 @@ video {
   .btn-primary, .btn-secondary {
     display: flex;
     justify-content: center;
+
     margin-right: 2rem;
     margin-left: 2rem;
   }
@@ -497,7 +552,9 @@ video {
     padding-right: .75rem;
     padding-bottom: .5rem;
     padding-left: .75rem;
+
     transition: all .2s ease-in-out;
+
     border: .1rem;
     border-style: solid;
     border-color: #424242;
@@ -506,8 +563,10 @@ video {
   }
   .typed-cursor {
     animation: blink .75s infinite;
+
     opacity: 1;
     color: #2962FF;
+
     font-size: 2.5rem;
   }
   @keyframes blink {
@@ -531,9 +590,12 @@ video {
     margin-right: .25rem;
     margin-bottom: 0rem;
     margin-left: .25rem;
+
     text-align: center;
   }
   #title p {
+    display: inline;
+
     margin-right: .25rem;
     margin-bottom: 0rem;
     margin-left: .25rem;
@@ -544,6 +606,42 @@ video {
   }
   #about h3 {
     font-size: 1.75rem;
+  }
+  #navbar ul {
+    overflow: hidden;
+
+    margin: 0;
+    margin-top: 0rem;
+    padding: 0;
+
+    list-style-type: none;
+  }
+
+  #navbar p {
+    margin-top: 1.5rem;
+    margin-right: 0rem;
+    margin-bottom: 1.5rem;
+    margin-left: 0rem;
+  }
+
+  #navbar ul li {
+    float: none;
+
+    margin-right: 1rem;
+    margin-left: 1rem;
+
+    font-weight: bold;
+  }
+
+  #navbar ul li a {
+    display: block;
+
+    text-align: center;
+    text-decoration: none;
+  }
+  .case-block-small {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
   }
 }
 
