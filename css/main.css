@@ -27,6 +27,11 @@
        url('../fonts/raleway-v12-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+body
+{
+   font-family: Raleway !important;
+}
+
 h1 {
   margin-right: 10rem;
   margin-bottom: 5rem;
