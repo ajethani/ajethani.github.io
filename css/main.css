@@ -1,42 +1,46 @@
 /* Anil's custom CSS */
+
 /* raleway-regular - latin */
+
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 400;
-  src: local('Raleway'), local('Raleway-Regular'),
-       url('../fonts/raleway-v12-latin/raleway-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/raleway-v12-latin/raleway-v12-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local('Raleway'), local('Raleway-Regular'), url('../fonts/raleway-v12-latin/raleway-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/raleway-v12-latin/raleway-v12-latin-regular.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 /* raleway-700 - latin */
+
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 700;
-  src: local('Raleway Bold'), local('Raleway-Bold'),
-       url('../fonts/raleway-v12-latin/raleway-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/raleway-v12-latin/raleway-v12-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local('Raleway Bold'), local('Raleway-Bold'), url('../fonts/raleway-v12-latin/raleway-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/raleway-v12-latin/raleway-v12-latin-700.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 /* raleway-800 - latin */
+
 @font-face {
   font-family: 'Raleway';
   font-style: normal;
   font-weight: 800;
-  src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'),
-       url('../fonts/raleway-v12-latin/raleway-v12-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url('../fonts/raleway-v12-latin/raleway-v12-latin-800.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'), url('../fonts/raleway-v12-latin/raleway-v12-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url('../fonts/raleway-v12-latin/raleway-v12-latin-800.woff') format('woff');
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
-body
-{
-   font-family: Raleway !important;
+body {
+  font-family: Raleway !important;
 }
 
 h1 {
   margin-right: 10rem;
   margin-bottom: 5rem;
   margin-left: 10rem;
-
   font-family: Raleway;
   font-size: 4.875rem;
   font-weight: 700;
@@ -47,11 +51,10 @@ h2 {
   margin-right: 10rem;
   margin-bottom: 2.25rem;
   margin-left: 10rem;
-
   font-family: Raleway;
   font-size: 2.5rem;
   font-weight: 700;
-  font-style: bolder;
+  font-style: normal;
   line-height: 2rem;
 }
 
@@ -59,7 +62,6 @@ h3 {
   margin-right: 10rem;
   margin-bottom: 2.25rem;
   margin-left: 10rem;
-
   font-family: Raleway;
   font-size: 2.125rem;
   font-weight: 800;
@@ -71,7 +73,6 @@ h5 {
   margin-right: 10rem;
   margin-bottom: 0;
   margin-left: 10rem;
-
   font-family: Raleway;
   font-size: 1rem;
   font-weight: 700;
@@ -83,7 +84,6 @@ p {
   margin-right: 10rem;
   margin-bottom: 2.25rem;
   margin-left: 10rem;
-
   font-family: Raleway;
   font-size: 1.500rem;
   line-height: 2rem;
@@ -92,7 +92,6 @@ p {
 li {
   margin-right: 10rem;
   margin-left: 10rem;
-
   font-family: Raleway;
   font-size: 1.500rem;
   line-height: 2rem;
@@ -120,12 +119,11 @@ a {
   text-decoration: underline;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   transition: all .1s ease-in-out;
   text-decoration: none;
-
   color: #2962FF;
-
   font-weight: 700;
 }
 
@@ -150,7 +148,6 @@ a:hover, a:focus {
 
 .center-object {
   display: block;
-
   width: 70%;
   margin-right: auto;
   margin-left: auto;
@@ -198,7 +195,8 @@ a:hover, a:focus {
   background-color: #2962FF;
 }
 
-.accent h3, .accent p {
+.accent h3,
+.accent p {
   color: white;
 }
 
@@ -212,9 +210,7 @@ a:hover, a:focus {
   margin-right: 2rem;
   margin-bottom: 2.25rem;
   margin-left: 2rem;
-
   color: #93a4aa;
-
   font-family: Raleway;
   font-size: 1.25rem;
   line-height: 1.75rem;
@@ -224,7 +220,6 @@ a:hover, a:focus {
   margin-right: 2rem;
   margin-bottom: 0rem;
   margin-left: 2rem;
-
   font-family: Raleway;
   font-size: 2.125rem;
   font-weight: 800;
@@ -236,7 +231,6 @@ a:hover, a:focus {
   margin-right: 2rem;
   margin-bottom: 0;
   margin-left: 2rem;
-
   font-family: Raleway;
   font-size: 1rem;
   font-weight: 700;
@@ -253,67 +247,59 @@ a:hover, a:focus {
   padding-left: 1rem;
 }
 
-.btn-primary, .btn-primary:focus {
+.btn-primary,
+.btn-primary:focus {
   margin-left: 2rem;
   padding-top: .5rem;
   padding-right: 1.5rem;
   padding-bottom: .5rem;
   padding-left: 1.5rem;
-
   transition: all .2s ease-in-out;
   text-decoration: none;
   text-transform: uppercase;
-
   color: #1A1E23;
   border: .1rem;
   border-style: solid;
   border-color: #2962FF;
   border-radius: 2rem;
   background-color: transparent;
-
   font-weight: 700;
 }
 
 .btn-primary:hover {
   padding-right: 2.5rem;
   padding-left: 2.5rem;
-
   transition: all .2s ease-in-out;
   text-decoration: none;
-
   color: white;
   border-color: #2962FF;
   background-color: #2962FF;
 }
 
-.btn-secondary, .btn-secondary:focus {
+.btn-secondary,
+.btn-secondary:focus {
   margin-left: 1.5rem;
   padding-top: .5rem;
   padding-right: 1.5rem;
   padding-bottom: .5rem;
   padding-left: 1.5rem;
-
   transition: all .2s ease-in-out;
   text-decoration: none;
   text-transform: uppercase;
-
   color: #1A1E23;
   border: .1rem;
   border-style: solid;
   border-color: #1A1E23;
   border-radius: 2rem;
   background-color: transparent;
-
   font-weight: 700;
 }
 
 .btn-secondary:hover {
   padding-right: 2.5rem;
   padding-left: 2.5rem;
-
   transition: all .2s ease-in-out;
   text-decoration: none;
-
   color: #2962FF;
   border-color: #1A1E23;
   background-color: #1A1E23;
@@ -326,10 +312,8 @@ a:hover, a:focus {
   padding-right: 1rem;
   padding-bottom: .75rem;
   padding-left: 1rem;
-
   transition: all .2s ease-in-out;
   text-decoration: none;
-
   border: .1rem;
   border-style: solid;
   border-color: #424242;
@@ -344,10 +328,8 @@ a:hover, a:focus {
   padding-right: 1.5rem;
   padding-bottom: 1.25rem;
   padding-left: 1.5rem;
-
   transition: all .2s ease-in-out;
   text-decoration: none;
-
   color: #1A1E23;
   border: .1rem;
   border-style: solid;
@@ -358,10 +340,8 @@ a:hover, a:focus {
 
 .typed-cursor {
   animation: blink .75s infinite;
-
   opacity: 1;
   color: #2962FF;
-
   font-size: 4.875rem;
 }
 
@@ -385,14 +365,9 @@ a:hover, a:focus {
 
 #title h1 {
   margin-right: 0rem;
-  margin-bottom: 0rem;
+  margin-bottom: 1rem;
   margin-left: 0rem;
-
   text-align: center;
-}
-
-#title p {
-  margin-bottom: 2rem;
 }
 
 #about {
@@ -415,7 +390,6 @@ a:hover, a:focus {
 
 video {
   display: block;
-
   width: 80% !important;
   height: auto !important;
   margin-right: auto;
@@ -424,10 +398,8 @@ video {
 
 #navbar ul {
   overflow: hidden;
-
   margin-top: 3rem;
   margin-right: 2rem;
-
   list-style-type: none;
 }
 
@@ -440,16 +412,13 @@ video {
 
 #navbar ul li {
   float: right;
-
   margin-right: 1rem;
   margin-left: 1rem;
-
   font-weight: 700;
 }
 
 #navbar ul li a {
   display: block;
-
   text-align: center;
   text-decoration: none;
 }
@@ -495,17 +464,17 @@ video {
 
 #about p {
   margin-top: 0rem;
-
   font-size: 1.25rem;
   line-height: 2.00rem;
 }
+
 /*originally 767px */
+
 @media only screen and (max-width: 1062px) and (min-width: 0px) {
   h1 {
     margin-right: 25px;
     margin-bottom: 2.25rem;
     margin-left: 25px;
-
     font-family: Raleway;
     font-size: 2.5rem;
     font-weight: 700;
@@ -515,18 +484,16 @@ video {
     margin-right: 25px;
     margin-bottom: 2.25rem;
     margin-left: 25px;
-
     font-family: Raleway;
     font-size: 2rem;
     font-weight: 700;
-    font-style: bolder;
+    font-style: normal;
     line-height: 2.25rem;
   }
   h3 {
     margin-right: 25px;
     margin-bottom: 2.25rem;
     margin-left: 25px;
-
     font-family: Raleway;
     font-size: 2.125rem;
     font-weight: 800;
@@ -537,7 +504,6 @@ video {
     margin-right: 25px;
     margin-bottom: 0;
     margin-left: 25px;
-
     font-family: Raleway;
     font-size: 1rem;
     font-weight: 700;
@@ -548,7 +514,6 @@ video {
     margin-right: 25px;
     margin-bottom: 2.25rem;
     margin-left: 25px;
-
     font-family: Raleway;
     font-size: 1.500rem;
     line-height: 2rem;
@@ -556,7 +521,6 @@ video {
   li {
     margin-right: 25px;
     margin-left: 25px;
-
     font-family: Raleway;
     font-size: 1.500rem;
     line-height: 2rem;
@@ -569,10 +533,10 @@ video {
     margin-right: 25px;
     margin-left: 25px;
   }
-  .btn-primary, .btn-secondary {
+  .btn-primary,
+  .btn-secondary {
     display: flex;
     justify-content: center;
-
     margin-right: 2rem;
     margin-left: 2rem;
   }
@@ -583,9 +547,7 @@ video {
     padding-right: .75rem;
     padding-bottom: .5rem;
     padding-left: .75rem;
-
     transition: all .2s ease-in-out;
-
     border: .1rem;
     border-style: solid;
     border-color: #424242;
@@ -594,10 +556,8 @@ video {
   }
   .typed-cursor {
     animation: blink .75s infinite;
-
     opacity: 1;
     color: #2962FF;
-
     font-size: 2.5rem;
   }
   @keyframes blink {
@@ -619,19 +579,12 @@ video {
   }
   #title h1 {
     margin-right: .25rem;
-    margin-bottom: 0rem;
+    margin-bottom: 1rem;
     margin-left: .25rem;
-
     text-align: center;
   }
-  #title p {
-    display: inline;
-
-    margin-right: .25rem;
-    margin-bottom: 0rem;
-    margin-left: .25rem;
-  }
-  #interested p, #about p {
+  #interested p,
+  #about p {
     font-size: 1rem;
     line-height: 1.50rem;
   }
@@ -640,33 +593,25 @@ video {
   }
   #navbar ul {
     overflow: hidden;
-
     margin: 0;
     margin-top: 0rem;
     padding: 0;
-
     list-style-type: none;
   }
-
   #navbar p {
     margin-top: 1.5rem;
     margin-right: 0rem;
     margin-bottom: 1.5rem;
     margin-left: 0rem;
   }
-
   #navbar ul li {
     float: none;
-
     margin-right: 1rem;
     margin-left: 1rem;
-
     font-weight: 700;
   }
-
   #navbar ul li a {
     display: block;
-
     text-align: center;
     text-decoration: none;
   }
