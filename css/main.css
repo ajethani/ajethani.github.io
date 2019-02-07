@@ -52,7 +52,7 @@ h2 {
   margin-bottom: 2.25rem;
   margin-left: 10rem;
   font-family: Raleway;
-  font-size: 2.5rem;
+  font-size: 2.25rem;
   font-weight: 700;
   font-style: normal;
   line-height: 2rem;
@@ -85,7 +85,7 @@ p {
   margin-bottom: 2.25rem;
   margin-left: 10rem;
   font-family: Raleway;
-  font-size: 1.500rem;
+  font-size: 1.25rem;
   line-height: 2rem;
 }
 
@@ -93,7 +93,7 @@ li {
   margin-right: 10rem;
   margin-left: 10rem;
   font-family: Raleway;
-  font-size: 1.500rem;
+  font-size: 1.25rem;
   line-height: 2rem;
 }
 
@@ -245,6 +245,17 @@ a:focus {
 .typed-padding {
   display: inline;
   padding-left: 1rem;
+}
+
+.back-button {
+  position: fixed;
+  top: 48px;
+  left: 24px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 12px 12px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.2);
+  z-index: 10;
 }
 
 .btn-primary,
@@ -482,7 +493,7 @@ video {
   }
   h2 {
     margin-right: 25px;
-    margin-bottom: 2.25rem;
+    margin-bottom: 2rem;
     margin-left: 25px;
     font-family: Raleway;
     font-size: 2rem;
@@ -515,14 +526,14 @@ video {
     margin-bottom: 2.25rem;
     margin-left: 25px;
     font-family: Raleway;
-    font-size: 1.500rem;
+    font-size: 1.00rem;
     line-height: 2rem;
   }
   li {
     margin-right: 25px;
     margin-left: 25px;
     font-family: Raleway;
-    font-size: 1.500rem;
+    font-size: 1.00rem;
     line-height: 2rem;
   }
   .row-margin {
