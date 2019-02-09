@@ -33,6 +33,10 @@
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: Raleway !important;
 }
@@ -42,7 +46,7 @@ h1 {
   margin-bottom: 5rem;
   margin-left: 10rem;
   font-family: Raleway;
-  font-size: 4.875rem;
+  font-size: 4.5rem;
   font-weight: 700;
   line-height: 4rem;
   letter-spacing: 2px;
@@ -57,6 +61,7 @@ h2 {
   font-weight: 700;
   font-style: normal;
   line-height: 2rem;
+  letter-spacing: 1px;
 }
 
 h3 {
@@ -64,7 +69,7 @@ h3 {
   margin-bottom: 2.25rem;
   margin-left: 10rem;
   font-family: Raleway;
-  font-size: 2.125rem;
+  font-size: 2rem;
   font-weight: 800;
   line-height: 2.25rem;
   letter-spacing: 1px;
@@ -82,12 +87,12 @@ h4 {
 }
 
 h5 {
-  margin-top: 2.25rem;
+  margin-top: 1rem;
   margin-right: 10rem;
-  margin-bottom: 0;
+  margin-bottom: 1rem;
   margin-left: 10rem;
   font-family: Raleway;
-  font-size: 1rem;
+  font-size: 1.25rem;
   font-weight: 700;
   line-height: 2.25rem;
 }
@@ -209,7 +214,7 @@ a:focus {
 }
 
 .mid {
-  background-color: #F4F6F7;
+  background-color: #F7F8FC; /* F4F6F7 */
 }
 
 .accent {
@@ -233,7 +238,6 @@ a:focus {
   margin-left: 2rem;
   color: #93a4aa;
   font-family: Raleway;
-  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -343,7 +347,7 @@ a:focus {
   text-decoration: none;
 }
 
-.btn-round {
+/* .btn-round {
   margin-right: 1rem;
   margin-left: 1rem;
   padding-top: .75rem;
@@ -357,9 +361,9 @@ a:focus {
   border-color: #424242;
   border-radius: 50%;
   background-color: transparent;
-}
+} */
 
-.btn-round:hover {
+/* .btn-round:hover {
   margin-right: 1rem;
   margin-left: 1rem;
   padding-top: 1.25rem;
@@ -374,7 +378,7 @@ a:focus {
   border-color: white;
   border-radius: 50%;
   background-color: white;
-}
+} */
 
 .typed-cursor {
   animation: blink .75s infinite;
@@ -514,13 +518,10 @@ video {
 
 #about p {
   margin-top: 0rem;
-  font-size: 1.25rem;
   line-height: 2.00rem;
 }
 
-/*originally 767px */
-
-@media only screen and (max-width: 1062px) and (min-width: 0px) {
+@media only screen and (max-width: 767px) and (min-width: 0px) {
   h1 {
     margin-right: 25px;
     margin-bottom: 2.25rem;
@@ -529,6 +530,7 @@ video {
     font-size: 2.5rem;
     font-weight: 700;
     line-height: 2.25rem;
+    letter-spacing: 1px;
   }
   h2 {
     margin-right: 25px;
@@ -539,15 +541,17 @@ video {
     font-weight: 700;
     font-style: normal;
     line-height: 2.25rem;
+    letter-spacing: 1px;
   }
   h3 {
     margin-right: 25px;
     margin-bottom: 2.25rem;
     margin-left: 25px;
     font-family: Raleway;
-    font-size: 2.125rem;
+    font-size: 1.75rem;
     font-weight: 800;
     line-height: 2.25rem;
+    letter-spacing: 1px;
   }
   h4 {
     margin-right: 25px;
@@ -577,6 +581,7 @@ video {
     font-family: Raleway;
     font-size: 1.00rem;
     line-height: 2rem;
+    letter-spacing: 1px;
   }
   li {
     margin-right: 25px;
@@ -584,6 +589,7 @@ video {
     font-family: Raleway;
     font-size: 1.00rem;
     line-height: 2rem;
+    letter-spacing: 1px;
   }
   .row-margin {
     margin-right: 25px;
@@ -600,7 +606,7 @@ video {
     margin-right: 2rem;
     margin-left: 2rem !important;
   }
-  .btn-round {
+  /* .btn-round {
     margin-right: .5rem;
     margin-left: .5rem;
     padding-top: .5rem;
@@ -613,7 +619,7 @@ video {
     border-color: #424242;
     border-radius: 50%;
     background-color: transparent;
-  }
+  } */
   .w3-col p {
     margin-top: 2.25rem;
     margin-right: 2rem;

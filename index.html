@@ -20,8 +20,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
     crossorigin="anonymous">
-  <!-- Scroll Reveal -->
-  <!-- <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script> -->
+  <!-- AOS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <!-- Linking main.css -->
   <link href="./css/main.css" type="text/css" rel="stylesheet" />
   <!-- Match address bar color -->
@@ -38,16 +38,16 @@
   <div id="about" class="dark">
     <div class="w3-row-padding">
       <div class="w3-col l6 m6 s12">
-        <h3 id="prim-anim" class="animated fadeIn">Currently</h3>
-        <p id="sec-anim" class="animated fadeIn">Looking for UI/UX position</p>
+        <h3>Currently</h3>
+        <p>Looking for UI/UX position</p>
       </div>
       <div class="w3-col l6 m6 s12">
-        <p id="sec-anim" class="animated fadeIn">
+        <p>
           Born in Bali, raised in Los Angeles, California. At the age of 12 I started developing interest in both technology and design.
           <br> In December 2017, I received my B.S. in computer science from University of California, San Diego.
           <br> In June 2018, I joined the UI/UX team at
           <a href="https://www.labcorp.com/" target="_blank">LabCorp</a>. That was the first time in my life that I had worked on a project with an audience of millions.
-          <br> I believe that my job is more than just designing interfaces, my job is to build bridges between the people who
+          <br> <br> I believe that my job is more than just designing interfaces, my job is to build bridges between the people who
           want to make this world better than the people who need it.
         </p>
       </div>
@@ -58,21 +58,21 @@
     <h2>My Expertise</h2>
     <p>I've got chops in all phases of design process</p>
     <div class="w3-row-padding row-margin">
-      <div class="w3-col l4 m4 s12 w3-center">
+      <div class="w3-col l4 m12 s12 w3-center">
         <!-- icon -->
         <img style="margin-bottom:1.5rem;" src="./img/icon/icons8-strategy-50.png" alt="">
         <h3>Strategy</h3>
         <p>I collaborate with clients and peers to nurture and transform ideas into well thought out design specs. After all,
           that's where the majority of amazing user experiences start.</p>
       </div>
-      <div class="w3-col l4 m4 s12 w3-center">
+      <div class="w3-col l4 m12 s12 w3-center">
         <!-- icon -->
         <img style="margin-bottom:1.5rem;" src="./img/icon/icons8-web-design-50.png" alt="">
         <h3>UX/UI</h3>
         <p> sketch and wireframe interfaces focusing on content structure, intuitive UI patterns and simple interactions. I'm
           a minimalist who truly believes that less is more.</p>
       </div>
-      <div class="w3-col l4 m4 s12 w3-center">
+      <div class="w3-col l4 m12 s12 w3-center">
         <!-- icon -->
         <img style="margin-bottom:1.5rem;" src="./img/icon/icons8-code-file-50.png" alt="">
         <h3>Code</h3>
@@ -83,67 +83,79 @@
   </div>
 
   <div class="case-block mid">
-    <!-- <div class="center">
-      <h2>My Work</h2>
-      <p>
-        <a href="mailto:ajethani11@gmail.com">Email me</a> to see more of my work</p>
-    </div> -->
-    <br />
     <!-- Cars Direct -->
     <div class="w3-row-padding">
       <div class="w3-col l6 m6 s12">
-        <img class="w-100" style="border-radius:2rem;" src="./img/asset/carsdirect/carsdirectdisplay4.png" alt="">
+        <img class="w-100" style="border-radius:2rem;" src="./img/asset/carsdirect/carsdirectdisplay4.png" alt="" data-aos="fade-up">
       </div>
       <div id="carsdirect" class="w3-col l6 m6 s12">
         <a href="https://carsdirect.com" style="text-decoration:none;" target="_blank">
           <h3>CarsDirect.com</h3>
         </a>
-        <h5>UI/UX Design</h5>
-        <p>
-          American online automotive research portal and car buying service. I worked
-          on a small project for mobile to improve how people buy their car when they
-          are on the lot. I implemented an on-the-go feature where user can enter the
-          VIN, mileage, and the price of the car and based on those information we can
-          inform the user whether the car they are looking at is worth buying.
-        </p>
-        <a href="https://ajethani.github.io/carsdirect.html" target="_blank" class="btn-primary">Read case study</a>
+        <div data-aos="fade-up">
+          <h5>UI/UX Design</h5>
+          <p>
+            American online automotive research portal and car buying service. I worked
+            on a small project for mobile to improve how people buy their car when they
+            are on the lot. I implemented an on-the-go feature where user can enter the
+            VIN, mileage, and the price of the car and based on those information we can
+            inform the user whether the car they are looking at is worth buying.
+          </p>
+        </div>
+        <div data-aos="fade-up">
+          <a href="https://ajethani.github.io/carsdirect.html" target="_blank" class="btn-primary">
+            Read case study
+          </a>
+        </div>
       </div>
     </div>
   </div>
 
   <div class="case-block mid">
     <div class="w3-row-padding">
-      <div class="w3-col l6 m6 s12">
-        <img class="w-100" style="border-radius:2rem;" src="./img/asset/sharedrobe/sharedrobemainpage.png" alt="">
+      <div class="w3-col l6 m6 s12" data-aos="fade-up">
+        <img class="w-100" style="border-radius:2rem;" src="./img/asset/sharedrobe/sharedrobemainpage.png" alt="" data-aos="fade-up">
       </div>
       <div id="sharedrobe" class="w3-col l6 m6 s12">
-        <h3>ShareDrobe</h3>
-        <h5>UI/UX Design</h5>
-        <p>
-          Clothing rental app design concept where users can rent or lend clothes at an affordable price mainly to eliminate buying
-          a one time occasion clothes. I led the design of ShareDrobe for iOS since the outset of the project in July 2017.
-          ShareDrobe was conceptualized during my time at UCSD’s usability & information I worked in a team of 8 and used
-          human centered design techniques to construct our solution into an app based prototype.
-        </p>
-        <a href="https://ajethani.github.io/sharedrobe.html" target="_blank" class="btn-primary">Read case study</a>
+        <div data-aos="fade-up">
+          <h3>ShareDrobe</h3>
+          <h5>UI/UX Design</h5>
+          <p>
+            Clothing rental app design concept where users can rent or lend clothes at an affordable price mainly to eliminate buying
+            a one time occasion clothes. I led the design of ShareDrobe for iOS since the outset of the project in July 2017.
+            ShareDrobe was conceptualized during my time at UCSD’s usability & information I worked in a team of 8 and used
+            human centered design techniques to construct our solution into an app based prototype.
+          </p>
+        </div>
+        <div data-aos="fade-up">
+          <a href="https://ajethani.github.io/sharedrobe.html" target="_blank" class="btn-primary">
+            Read case study
+          </a>
+        </div>
       </div>
     </div>
   </div>
 
   <div class="case-block mid">
-    <div class="w3-row-padding">
+    <div class="w3-row-padding" data-aos="fade-up">
       <div class="w3-col l6 m6 s12">
-        <img class="w-100" style="border-radius:2rem;" src="./img/asset/finalscalc/finalscalc.png" alt="">
+        <img class="w-100" style="border-radius:2rem;" src="./img/asset/finalscalc/finalscalc.png" alt="" data-aos="fade-up">
       </div>
       <div id="finalscalc" class="w3-col l6 m6 s12">
-        <h3>Finals Calculator</h3>
-        <h5>Android App</h5>
-        <p>
-          Finals Calculator is a fast and minimalistic material design calculator students to easily calculate the grades they need
-          to achieve the grades they want in their finals. The initial idea of this app came up when my colleague was looking
-          for an easy way to calculate the grades but could not find a simple and beautiful looking app in the Play Store.
-        </p>
-        <a href="https://play.google.com/store/apps/details?id=com.vanillanil.finalscalculator" target="_blank" class="btn-primary">Google play store</a>
+        <div data-aos="fade-up">
+          <h3>Finals Calculator</h3>
+          <h5>Android App</h5>
+          <p>
+            Finals Calculator is a fast and minimalistic material design calculator students to easily calculate the grades they need
+            to achieve the grades they want in their finals. The initial idea of this app came up when my colleague was looking
+            for an easy way to calculate the grades but could not find a simple and beautiful looking app in the Play Store.
+          </p>
+        </div>
+        <div data-aos="fade-up">
+          <a href="https://play.google.com/store/apps/details?id=com.vanillanil.finalscalculator" target="_blank" class="btn-primary">
+            Google play store
+          </a>
+        </div>
       </div>
     </div>
   </div>
@@ -176,11 +188,15 @@
 
   <div id="concepts" class="case-block center">
     <h4>CONCEPT WORK</h4>
-    <img class="w-80 center-object" src="./img/asset/globe/finalglobedesign.png" alt="">
-    <h4>GLOBE WEBSITE REDESIGN</h4>
-    <p>Improving the perception of an iconic global skate brand by reimagining
-      the company's online shopping experience.</p>
-    <div>
+    <div data-aos="fade-up">
+      <img class="w-80 center-object" src="./img/asset/globe/finalglobedesign.png" alt="">
+    <div data-aos="fade-up">
+      <h4>GLOBE WEBSITE REDESIGN</h4>
+      <p>Improving the perception of an iconic global skate brand by reimagining
+        the company's online shopping experience.</p>
+    </div>
+    </div>
+    <div data-aos="fade-up">
       <a class="btn-primary">COMING SOON</a>
     </div>
   </div>
@@ -215,24 +231,6 @@
 
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
   <script type="text/javascript" src="./js/typed.js"></script>
-  <!-- <script type="text/javascript">
-    window.sr = ScrollReveal();
-    sr.reveal('#chart', {
-      duration: 700
-    });
-    sr.reveal('#finalscalc', {
-      duration: 700
-    });
-    sr.reveal('#sharedrobe', {
-      duration: 700
-    });
-    sr.reveal('#links', {
-      duration: 1500
-    });
-    sr.reveal('.w-100', {
-      duration: 400
-    });
-  </script> -->
   <script type="text/javascript">
     var typed = new Typed('.typed', {
       strings: ['user interfaces',
@@ -254,37 +252,32 @@
     });
   </script>
 
-  <script type="text/javascript">
-    var ctx = document.getElementById('myChart').getContext('2d');
-    var chart = new Chart(ctx, {
-      // The type of chart we want to create
-      type: 'bar',
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      // Global settings:
+      disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function
+      startEvent: 'DOMContentLoaded', // name of the event dispatched on the document, that AOS should initialize on
+      initClassName: 'aos-init', // class applied after initialization
+      animatedClassName: 'aos-animate', // class applied on animation
+      useClassNames: false, // if true, will add content of `data-aos` as classes on scroll
+      disableMutationObserver: false, // disables automatic mutations' detections (advanced)
+      debounceDelay: 50, // the delay on debounce used while resizing window (advanced)
+      throttleDelay: 99, // the delay on throttle used while scrolling the page (advanced)
 
-      // The data for our dataset
-      data: {
-        labels: ["HTML", "CSS", "JS", "Java", "Python"],
-        datasets: [{
-          label: "Confident Level",
-          backgroundColor: '#1A1E23',
-          borderColor: '#1A1E23',
-          hoverBackgroundColor: '#2962FF',
-          hoverBorderColor: '#2962FF',
-          data: [95, 90, 50, 70, 40],
-        }]
-      },
 
-      // Configuration options go here
-      options: {
-        scales: {
-          yAxes: [{
-            ticks: {
-              beginAtZero: true
-            }
-          }]
-        }
-      }
-    });
+      // Settings that can be overridden on per-element basis, by `data-aos-*` attributes:
+      offset: 120, // offset (in px) from the original trigger point
+      delay: 0, // values from 0 to 3000, with step 50ms
+      duration: 400, // values from 0 to 3000, with step 50ms
+      easing: 'ease', // default easing for AOS animations
+      once: true, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+      anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
+
+});
   </script>
+
 </body>
 
 </html>
