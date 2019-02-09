@@ -337,6 +337,12 @@ a:focus {
   background-color: #1A1E23;
 }
 
+.social-links {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+}
+
 .btn-round {
   margin-right: 1rem;
   margin-left: 1rem;
@@ -487,6 +493,8 @@ video {
 }
 
 #interested p {
+  margin-top: 0;
+  margin-bottom: 2rem;
   line-height: 1.5rem;
 }
 
