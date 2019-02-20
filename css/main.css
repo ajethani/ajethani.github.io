@@ -46,7 +46,7 @@ h1 {
   margin-bottom: 5rem;
   margin-left: 10rem;
   font-family: Raleway;
-  font-size: 4.5rem;
+  font-size: 4rem;
   font-weight: 700;
   line-height: 4rem;
   letter-spacing: 2px;
@@ -57,7 +57,7 @@ h2 {
   margin-bottom: 2.25rem;
   margin-left: 10rem;
   font-family: Raleway;
-  font-size: 2.25rem;
+  font-size: 2rem;
   font-weight: 700;
   font-style: normal;
   line-height: 2rem;
@@ -66,7 +66,7 @@ h2 {
 
 h3 {
   margin-right: 10rem;
-  margin-bottom: 2.25rem;
+  margin-bottom: 1.75rem;
   margin-left: 10rem;
   font-family: Raleway;
   font-size: 2rem;
@@ -92,7 +92,7 @@ h5 {
   margin-bottom: 1rem;
   margin-left: 10rem;
   font-family: Raleway;
-  font-size: 1.25rem;
+  font-size: 1rem;
   font-weight: 700;
   line-height: 2.25rem;
 }
@@ -103,7 +103,7 @@ p {
   margin-bottom: 2rem;
   margin-left: 10rem;
   font-family: Raleway;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 2rem;
   letter-spacing: 1px;
 }
@@ -112,27 +112,9 @@ li {
   margin-right: 10rem;
   margin-left: 10rem;
   font-family: Raleway;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 2rem;
   letter-spacing: 1px;
-}
-
-blockquote {
-  font-family: Raleway;
-  font-size: 21px;
-  font-weight: 400;
-  font-style: normal;
-  font-variant: normal;
-  line-height: 30px;
-}
-
-pre {
-  font-family: Raleway;
-  font-size: 13px;
-  font-weight: 400;
-  font-style: normal;
-  font-variant: normal;
-  line-height: 18.5714px;
 }
 
 a {
@@ -246,7 +228,6 @@ a:focus {
   margin-bottom: 0rem;
   margin-left: 2rem;
   font-family: Raleway;
-  font-size: 2.125rem;
   font-weight: 800;
   line-height: 2.25rem;
 }
@@ -257,7 +238,6 @@ a:focus {
   margin-bottom: 0;
   margin-left: 2rem;
   font-family: Raleway;
-  font-size: 1rem;
   font-weight: 700;
   line-height: 2.25rem;
   letter-spacing: 1px;
@@ -417,6 +397,10 @@ a:focus {
   text-align: center;
 }
 
+#intro p {
+  font-size: 1.25rem;
+}
+
 #work p {
   font-size: 1rem;
   color: #000;
@@ -434,6 +418,7 @@ a:focus {
 }
 
 #about p {
+  font-size: 1.25rem;
   -webkit-animation-duration: 8s;
   -moz-animation-duration: 8s;
   -ms-animation-duration: 8s;
@@ -510,6 +495,7 @@ video {
   margin-top: 0;
   margin-bottom: 1rem;
   line-height: 1.5rem;
+  font-size: 1.25rem;
 }
 
 /* remove button's margin to center */
@@ -593,7 +579,7 @@ video {
     margin-bottom: 2.25rem;
     margin-left: 25px;
     font-family: Raleway;
-    font-size: 1.00rem;
+    font-size: 1rem;
     line-height: 2rem;
     letter-spacing: 1px;
   }
@@ -601,7 +587,7 @@ video {
     margin-right: 25px;
     margin-left: 25px;
     font-family: Raleway;
-    font-size: 1.00rem;
+    font-size: 1rem;
     line-height: 2rem;
     letter-spacing: 1px;
   }
