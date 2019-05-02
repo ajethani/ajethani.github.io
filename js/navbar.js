@@ -3,7 +3,7 @@ var prevScrollpos = window.pageYOffset;
 window.onscroll = function() {
   var currentScrollPos = window.pageYOffset;
   // when scrolling up, show navbar
-  if (prevScrollpos > currentScrollPos) {
+  if (prevScrollpos > currentScrollPos || currentScrollPos == 0) {
     document.getElementById("navbar").style.top = "0";
   }
   // when scrolling down, hide navbar

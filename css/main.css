@@ -40,10 +40,9 @@ html {
 }
 
 body {
-  border-width: 1rem;
+  /* border-width: 1rem;
   border-style: solid;
-  border-color: #2962FF;
-
+  border-color: #2962FF; */
   font-family: Raleway !important;
 }
 
@@ -160,12 +159,14 @@ ul.navbar-black {
   position: fixed;
 
   width: 100%;
-  padding-top: 20px;
-  padding-right: 20px;
+  margin: 0;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
 
   list-style-type: none;
 
-  background-color: transparent;
+  background-color: #1A1E23;
 }
 
 .navbar-black li,
@@ -174,11 +175,11 @@ ul.navbar-black {
   float: right;
 
   margin: 2px;
-  padding: 0px;
+  /* padding: 1rem; */
 
   letter-spacing: 2px;
 
-  color: #000;
+  color: #fff;
 
   line-height: 0;
 }
@@ -661,13 +662,13 @@ video {
 
 
 @media only screen and (max-width: 768px) and (min-width: 0px) {
-  body {
+  /* body {
     border-width: 0.75rem;
     border-style: solid;
     border-color: #2962FF;
 
     font-family: Raleway !important;
-  }
+  } */
   h1 {
     margin-right: 25px;
     margin-bottom: 2.25rem;
@@ -827,13 +828,14 @@ video {
     position: fixed;
 
     width: 100%;
-    padding-top: 20px;
-    padding-right: 20px;
-    padding-bottom: 20px;
+    margin: 0;
+    padding-top: 1.5rem;
+    padding-right: 0rem;
+    padding-bottom: 1.5rem;
 
     list-style-type: none;
 
-    background-color: transparent;
+    background-color: #1A1E23;
   }
 
   .navbar-black li,
@@ -842,19 +844,17 @@ video {
     float: right;
 
     margin: 1px;
-    padding: 0px;
 
     letter-spacing: 2px;
 
-    color: #000;
+    color: #fff;
 
     line-height: 0;
   }
 
   .navbar-black a {
     display: block;
-
-    margin-right: 1.25rem;
+    /* margin-right: 2rem; */
 
     text-decoration: none;
   }
