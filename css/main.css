@@ -140,6 +140,31 @@ a {
   letter-spacing: 1px;
 }
 
+#about-me h1,
+#about-me h2,
+#about-me h3,
+#about-me h4,
+#about-me h5,
+#about-me p,
+#about-me ol,
+#about-me li,
+#about-me a {
+  margin: 0;
+}
+
+#about-me .w3-col p {
+  margin: 1rem 0 0 0;
+  color: #000;
+}
+
+#about-me ol {
+  padding-left: 1rem;
+}
+
+.container {
+  margin: 6.25rem 3rem 6.25rem 3rem;
+}
+
 a:hover,
 a:focus {
   transition: all .1s ease-in-out;
@@ -920,6 +945,46 @@ video {
   #newtitle p {
     line-height: 1.75rem;
   }
+  #bali-img {
+    display: none;
+  }
+  #about-me h1,
+  #about-me h2,
+  #about-me h3,
+  #about-me h4,
+  #about-me h5,
+  #about-me p,
+  #about-me ol,
+  #about-me li,
+  #about-me a {
+    margin: 0;
+  }
+
+  #about-me .w3-col p {
+    margin: 1rem 0 0 0;
+    color: #000;
+  }
+
+  #about-me ol {
+    padding-left: 1rem;
+  }
+
+  #profilepic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .container {
+    margin: 2rem 1rem 2rem 1rem;
+  }
+
+  .title {
+    margin-top: 1rem;
+    text-align: center;
+  }
+
 }
 
 /* end of media */
