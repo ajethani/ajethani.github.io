@@ -1,136 +1,126 @@
 /* Anil's custom CSS */
 
-/* raleway-regular - latin */
+/* Basier Circle */
 @font-face {
-  font-family: 'Raleway';
-  font-weight: 400;
-  font-style: normal;
+    font-family: 'basier_circleregular';
+    font-weight: normal;
+    font-style: normal;
 
-  src: local('Raleway'), local('Raleway-Regular'), url('../fonts/raleway-v12-latin/raleway-v12-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-  url('../fonts/raleway-v12-latin/raleway-v12-latin-regular.woff') format('woff');
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: url('../fonts/Basier_Circle_Webfont/Basier-Circle-regular-webfont/basiercircle-regular-webfont.eot');
+    src: url('../fonts/Basier_Circle_Webfont/Basier-Circle-regular-webfont/basiercircle-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Basier_Circle_Webfont/Basier-Circle-regular-webfont/basiercircle-regular-webfont.woff2') format('woff2'),
+         url('../fonts/Basier_Circle_Webfont/Basier-Circle-regular-webfont/basiercircle-regular-webfont.woff') format('woff'),
+         url('../fonts/Basier_Circle_Webfont/Basier-Circle-regular-webfont/basiercircle-regular-webfont.ttf') format('truetype');
 }
-
-/* raleway-700 - latin */
-
 @font-face {
-  font-family: 'Raleway';
-  font-weight: 700;
-  font-style: normal;
+    font-family: 'basier_circlemedium';
+    font-weight: normal;
+    font-style: normal;
 
-  src: local('Raleway Bold'), local('Raleway-Bold'), url('../fonts/raleway-v12-latin/raleway-v12-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-  url('../fonts/raleway-v12-latin/raleway-v12-latin-700.woff') format('woff');
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: url('../fonts/Basier_Circle_Webfont/Basier-Circle-medium-webfont/basiercircle-medium-webfont.eot');
+    src: url('../fonts/Basier_Circle_Webfont/Basier-Circle-medium-webfont/basiercircle-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Basier_Circle_Webfont/Basier-Circle-medium-webfont/basiercircle-medium-webfont.woff2') format('woff2'),
+         url('../fonts/Basier_Circle_Webfont/Basier-Circle-medium-webfont/basiercircle-medium-webfont.woff') format('woff'),
+         url('../fonts/Basier_Circle_Webfont/Basier-Circle-medium-webfont/basiercircle-medium-webfont.ttf') format('truetype');
 }
-
-/* raleway-800 - latin */
-
 @font-face {
-  font-family: 'Raleway';
-  font-weight: 800;
-  font-style: normal;
+    font-family: 'basier_circlesemibold';
+    font-weight: normal;
+    font-style: normal;
 
-  src: local('Raleway ExtraBold'), local('Raleway-ExtraBold'), url('../fonts/raleway-v12-latin/raleway-v12-latin-800.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-  url('../fonts/raleway-v12-latin/raleway-v12-latin-800.woff') format('woff');
-  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: url('../fonts/Basier_Circle_Webfont/Basier-Circle-semibold-webfont/basiercircle-semibold-webfont.eot');
+    src: url('../fonts/Basier_Circle_Webfont/Basier-Circle-semibold-webfont/basiercircle-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Basier_Circle_Webfont/Basier-Circle-semibold-webfont/basiercircle-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/Basier_Circle_Webfont/Basier-Circle-semibold-webfont/basiercircle-semibold-webfont.woff') format('woff'),
+         url('../fonts/Basier_Circle_Webfont/Basier-Circle-semibold-webfont/basiercircle-semibold-webfont.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'basier_circlebold';
+    font-weight: normal;
+    font-style: normal;
+
+    src: url('../fonts/Basier_Circle_Webfont/Basier-Circle-bold-webfont/basiercircle-bold-webfont.eot');
+    src: url('../fonts/Basier_Circle_Webfont/Basier-Circle-bold-webfont/basiercircle-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Basier_Circle_Webfont/Basier-Circle-bold-webfont/basiercircle-bold-webfont.woff2') format('woff2'),
+         url('../fonts/Basier_Circle_Webfont/Basier-Circle-bold-webfont/basiercircle-bold-webfont.woff') format('woff'),
+         url('../fonts/Basier_Circle_Webfont/Basier-Circle-bold-webfont/basiercircle-bold-webfont.ttf') format('truetype');
 }
 
 html {
   scroll-behavior: smooth;
 }
 
-body {
-  /* border-width: 1rem;
-  border-style: solid;
-  border-color: #2962FF; */
+/* body {
   font-family: Raleway !important;
-}
+} */
 
 h1 {
-  margin-right: 10rem;
   margin-bottom: 5rem;
-  margin-left: 10rem;
 
   letter-spacing: 2px;
 
-  font-family: Raleway;
+  font-family: basier_circlebold;
   font-size: 4rem;
-  font-weight: 700;
   line-height: 4rem;
 }
 
 h2 {
-  margin-right: 10rem;
   margin-bottom: 2.25rem;
-  margin-left: 10rem;
 
   letter-spacing: 1px;
 
-  font-family: Raleway;
+  font-family: basier_circlebold;
   font-size: 2rem;
-  font-weight: 700;
   font-style: normal;
   line-height: 2rem;
 }
 
 h3 {
-  margin-right: 10rem;
   margin-bottom: 1.75rem;
-  margin-left: 10rem;
 
   letter-spacing: 1px;
 
-  font-family: Raleway;
+  font-family: basier_circlebold;
   font-size: 2rem;
-  font-weight: 800;
-  line-height: 2.25rem;
+  line-height: 2rem;
 }
 
 h4 {
-  margin-right: 10rem;
   margin-bottom: 2rem;
-  margin-left: 10rem;
 
   letter-spacing: 2.5px;
 
-  font-family: Raleway;
+  font-family: basier_circlebold;
   font-size: 1.5rem;
-  font-weight: 800;
-  line-height: 2.25rem;
+  line-height: 2rem;
 }
 
 h5 {
   margin-top: 1rem;
-  margin-right: 10rem;
   margin-bottom: 1rem;
-  margin-left: 10rem;
 
-  font-family: Raleway;
+  font-family: basier_circlesemibold;
   font-size: 1rem;
-  font-weight: 700;
-  line-height: 2.25rem;
+  line-height: 2rem;
 }
 
 p {
   margin-top: 2rem;
-  margin-right: 10rem;
   margin-bottom: 2rem;
-  margin-left: 10rem;
 
   letter-spacing: 1px;
 
-  font-family: Raleway;
+  opacity: 0.87;
+
+  font-family: basier_circleregular;
   font-size: 1rem;
   line-height: 2rem;
 }
 
 li {
-  margin-right: 10rem;
-  margin-left: 10rem;
-
   letter-spacing: 1px;
 
-  font-family: Raleway;
+  font-family: basier_circleregular;
   font-size: 1rem;
   line-height: 2rem;
 }
@@ -138,31 +128,8 @@ li {
 a {
   text-decoration: underline;
   letter-spacing: 1px;
-}
 
-#about-me h1,
-#about-me h2,
-#about-me h3,
-#about-me h4,
-#about-me h5,
-#about-me p,
-#about-me ol,
-#about-me li,
-#about-me a {
-  margin: 0;
-}
-
-#about-me .w3-col p {
-  margin: 1rem 0 0 0;
-  color: #000;
-}
-
-#about-me ol {
-  padding-left: 1rem;
-}
-
-.container {
-  margin: 6.25rem 3rem 6.25rem 3rem;
+  font-family: basier_circlebold;
 }
 
 a:hover,
@@ -172,12 +139,26 @@ a:focus {
 
   color: #2962FF;
 
-  font-weight: 700;
 }
 
 /* Navbar */
 #navbar {
   transition: top 0.5s;
+}
+
+.project-container {
+  width: 80%;
+  max-width: 600px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.project-img {
+  display: block;
+
+  width: 90%;
+  max-width: 1000px;
+  margin: 25px auto;
 }
 
 ul.navbar-black {
@@ -253,7 +234,7 @@ ul.navbar-black {
   height: auto;
 }
 
-.w-80 {
+.w-75 {
   width: 75%;
   height: auto;
 }
@@ -284,7 +265,7 @@ ul.navbar-black {
 }
 
 .mid {
-  background-color: #F7F8FC; /* F4F6F7 */
+  background-color: #F7F8FC;
 }
 
 .accent {
@@ -309,7 +290,6 @@ ul.navbar-black {
 
   color: #93a4aa;
 
-  font-family: Raleway;
   line-height: 1.75rem;
 }
 
@@ -318,8 +298,6 @@ ul.navbar-black {
   margin-bottom: 0rem;
   margin-left: 2rem;
 
-  font-family: Raleway;
-  font-weight: 800;
   line-height: 2.25rem;
 }
 
@@ -331,8 +309,6 @@ ul.navbar-black {
 
   letter-spacing: 1px;
 
-  font-family: Raleway;
-  font-weight: 700;
   line-height: 2.25rem;
 }
 
@@ -379,7 +355,7 @@ ul.navbar-black {
   border-radius: 2rem;
   background-color: transparent;
 
-  font-weight: 700;
+  font-family: basier_circlebold;
 }
 
 .btn-primary:hover {
@@ -412,8 +388,6 @@ ul.navbar-black {
   border-color: #1A1E23;
   border-radius: 2rem;
   background-color: transparent;
-
-  font-weight: 700;
 }
 
 .btn-secondary:hover {
@@ -476,7 +450,6 @@ ul.navbar-black {
     to   { opacity: 1; }
 }
 
-
 .typed-cursor {
   animation: blink .75s infinite;
 
@@ -503,34 +476,6 @@ ul.navbar-black {
     opacity: 1;
   }
 }
-
-#newtitle h1,
-#newtitle h2,
-#newtitle p {
-  margin-right: 15rem;
-  margin-left: 15rem;
-
-  text-align: left;
-}
-
-#newtitle h1 {
-  letter-spacing: 1px;
-  /* font-family: eskorte-latin, serif; */
-  /* font-weight: 400; */
-
-  font-style: normal;
-}
-
-#newtitle h2 {
-  letter-spacing: 1px;
-
-  color: #000;
-
-  font-size: 2rem;
-  font-weight: 400;
-  line-height: 3rem;
-}
-
 
 #title h1 {
   margin-right: 0rem;
@@ -601,7 +546,6 @@ video {
   margin-right: 0.5rem;
   margin-left: 0.5rem;
 
-  font-weight: 700;
 }
 
 #navbar-secondary a {
@@ -616,10 +560,6 @@ video {
   padding-right: 5rem;
   padding-bottom: 3rem;
   padding-left: 5rem;
-}
-
-#logo-card p {
-  margin: 0px;
 }
 
 #logo-creation h2 {
@@ -677,102 +617,59 @@ video {
 }
 
 
-
-
-
-
-
-
-
-
-
 @media only screen and (max-width: 768px) and (min-width: 0px) {
-  /* body {
-    border-width: 0.75rem;
-    border-style: solid;
-    border-color: #2962FF;
-
-    font-family: Raleway !important;
-  } */
   h1 {
-    margin-right: 25px;
     margin-bottom: 2.25rem;
-    margin-left: 25px;
 
     letter-spacing: 1px;
 
-    font-family: Raleway;
     font-size: 2.5rem;
-    font-weight: 700;
     line-height: 2.25rem;
   }
   h2 {
-    margin-right: 25px;
     margin-bottom: 2rem;
-    margin-left: 25px;
 
     letter-spacing: 1px;
 
-    font-family: Raleway;
     font-size: 2rem;
-    font-weight: 700;
     font-style: normal;
     line-height: 2.25rem;
   }
   h3 {
-    margin-right: 25px;
     margin-bottom: 2.25rem;
-    margin-left: 25px;
 
     letter-spacing: 1px;
 
-    font-family: Raleway;
     font-size: 1.75rem;
-    font-weight: 800;
     line-height: 2.25rem;
   }
   h4 {
-    margin-right: 25px;
     margin-bottom: 2rem;
-    margin-left: 25px;
 
     letter-spacing: 2.5px;
 
-    font-family: Raleway;
     font-size: 1.5rem;
-    font-weight: 800;
     line-height: 2.25rem;
   }
   h5 {
     margin-top: 2.25rem;
-    margin-right: 25px;
     margin-bottom: 0;
-    margin-left: 25px;
 
-    font-family: Raleway;
     font-size: 1rem;
-    font-weight: 700;
     line-height: 2.25rem;
   }
   p {
     margin-top: 2.25rem;
-    margin-right: 25px;
     margin-bottom: 2.25rem;
-    margin-left: 25px;
 
     letter-spacing: 1px;
 
-    font-family: Raleway;
     font-size: 1rem;
     line-height: 2rem;
   }
   li {
-    margin-right: 25px;
-    margin-left: 25px;
-
     letter-spacing: 1px;
 
-    font-family: Raleway;
     font-size: 1rem;
     line-height: 2rem;
   }
@@ -800,7 +697,6 @@ video {
 
     color: #93a4aa;
 
-    font-family: Raleway;
     font-size: 1rem;
     line-height: 1.5rem;
   }
@@ -848,7 +744,6 @@ video {
   #navbar {
     transition: top 0.5s;
   }
-
   ul.navbar-black {
     position: fixed;
 
@@ -862,7 +757,6 @@ video {
 
     background-color: #1A1E23;
   }
-
   .navbar-black li,
   .navbar-black p {
     display: inline;
@@ -876,10 +770,8 @@ video {
 
     line-height: 0;
   }
-
   .navbar-black a {
     display: block;
-    /* margin-right: 2rem; */
 
     text-decoration: none;
   }
@@ -904,7 +796,6 @@ video {
     margin-right: 1rem;
     margin-left: 1rem;
 
-    font-weight: 700;
   }
   #navbar-secondary a {
     display: block;
@@ -915,74 +806,6 @@ video {
   .case-block-small {
     padding-top: 1rem;
     padding-bottom: 1rem;
-  }
-  #newtitle h1,
-  #newtitle h2,
-  #newtitle p {
-    margin-right: 1rem;
-    margin-left: 1rem;
-
-    text-align: left;
-  }
-
-  #newtitle h1 {
-    letter-spacing: 1px;
-    /* font-family: eskorte-latin, serif; */
-    /* font-weight: 400; */
-
-    font-style: normal;
-  }
-
-  #newtitle h2 {
-    letter-spacing: 1px;
-
-    color: #000;
-
-    font-size: 1.75rem;
-    font-weight: 400;
-    line-height: 2.75rem;
-  }
-  #newtitle p {
-    line-height: 1.75rem;
-  }
-  #bali-img {
-    display: none;
-  }
-  #about-me h1,
-  #about-me h2,
-  #about-me h3,
-  #about-me h4,
-  #about-me h5,
-  #about-me p,
-  #about-me ol,
-  #about-me li,
-  #about-me a {
-    margin: 0;
-  }
-
-  #about-me .w3-col p {
-    margin: 1rem 0 0 0;
-    color: #000;
-  }
-
-  #about-me ol {
-    padding-left: 1rem;
-  }
-
-  #profilepic {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
-
-  .container {
-    margin: 2rem 1rem 2rem 1rem;
-  }
-
-  .title {
-    margin-top: 1rem;
-    text-align: center;
   }
 
 }
