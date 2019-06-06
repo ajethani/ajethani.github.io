@@ -290,28 +290,13 @@ ul.navbar-black {
   margin-left: 10rem;
 }
 
-.w3-col p {
-  margin-top: 2.25rem;
-  margin-bottom: 2.25rem;
-
-  color: #93a4aa;
-
-  line-height: 1.75rem;
-}
-
 .w3-col h3 {
   margin-bottom: 0rem;
-
-  line-height: 2.25rem;
 }
 
 .w3-col h5 {
   margin-top: 0rem;
   margin-bottom: 0;
-
-  letter-spacing: 1px;
-
-  line-height: 2.25rem;
 }
 
 .icon-size {
@@ -481,7 +466,11 @@ ul.navbar-black {
   }
 }
 
-#title h1 {
+#title {
+  color: #93a4aa;
+}
+
+#heading h1 {
   margin-right: 0rem;
   margin-bottom: 1rem;
   margin-left: 0rem;
@@ -495,8 +484,6 @@ ul.navbar-black {
 
 #work p {
   color: #000;
-
-  font-size: 1rem;
 }
 
 #about {
@@ -694,18 +681,17 @@ video {
   .btn-secondary {
     display: flex;
     justify-content: center;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
 
-    max-width: 250px;
+    max-width: 200px;
   }
-  .w3-col p {
+  /* .w3-col p {
     margin-top: 2.25rem;
     margin-bottom: 2.25rem;
 
     color: #93a4aa;
-
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
+  } */
   .typed-cursor {
     animation: blink .75s infinite;
 
