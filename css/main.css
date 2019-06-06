@@ -146,6 +146,14 @@ a:focus {
   transition: top 0.5s;
 }
 
+.title-container {
+  margin: 0 2rem;
+}
+
+.desc-container {
+  margin: 0 4rem;
+}
+
 .project-container {
   width: 80%;
   max-width: 600px;
@@ -284,9 +292,7 @@ ul.navbar-black {
 
 .w3-col p {
   margin-top: 2.25rem;
-  margin-right: 2rem;
   margin-bottom: 2.25rem;
-  margin-left: 2rem;
 
   color: #93a4aa;
 
@@ -294,18 +300,14 @@ ul.navbar-black {
 }
 
 .w3-col h3 {
-  margin-right: 2rem;
   margin-bottom: 0rem;
-  margin-left: 2rem;
 
   line-height: 2.25rem;
 }
 
 .w3-col h5 {
   margin-top: 0rem;
-  margin-right: 2rem;
   margin-bottom: 0;
-  margin-left: 2rem;
 
   letter-spacing: 1px;
 
@@ -338,7 +340,8 @@ ul.navbar-black {
 
 .btn-primary,
 .btn-primary:focus {
-  margin-left: 2rem;
+  max-width: 350px;
+  margin: 0 auto;
   padding-top: .5rem;
   padding-right: 1.5rem;
   padding-bottom: .5rem;
@@ -346,6 +349,7 @@ ul.navbar-black {
 
   transition: all .2s ease-in-out;
   text-decoration: none;
+  letter-spacing: 1px;
   text-transform: uppercase;
 
   color: #1A1E23;
@@ -593,10 +597,6 @@ video {
 }
 
 /* remove button's margin to center */
-#concepts a {
-  margin-left: 0px;
-}
-
 #concepts p {
   font-size: 1rem;
 }
@@ -617,7 +617,7 @@ video {
 }
 
 
-@media only screen and (max-width: 768px) and (min-width: 0px) {
+@media only screen and (max-width: 767px) and (min-width: 0px) {
   h1 {
     margin-bottom: 2.25rem;
 
@@ -673,6 +673,15 @@ video {
     font-size: 1rem;
     line-height: 2rem;
   }
+  .title-container {
+    margin: 0 1rem;
+  }
+
+  .desc-container {
+    margin: 0 2rem;
+
+    text-align: center;
+  }
   .row-margin {
     margin-right: 25px;
     margin-left: 25px;
@@ -686,14 +695,11 @@ video {
     display: flex;
     justify-content: center;
 
-    margin-right: 2rem;
-    margin-left: 2rem !important;
+    max-width: 250px;
   }
   .w3-col p {
     margin-top: 2.25rem;
-    margin-right: 2rem;
     margin-bottom: 2.25rem;
-    margin-left: 2rem;
 
     color: #93a4aa;
 
