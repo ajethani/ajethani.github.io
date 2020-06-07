@@ -651,8 +651,7 @@ video {
     font-size: 1.75rem;
   }
   .case-block-small {
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem 0px;
   }
   .project-container-flex {
     display: flex;
