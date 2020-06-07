@@ -50,16 +50,17 @@ html {
   scroll-behavior: smooth;
 }
 
-/* body {
-  font-family: Raleway !important;
-} */
+h1, h2, h3, h4, h5 {
+  font-family: basier_circlebold;
+  font-weight: 400;
+  margin: 10px 0;
+}
 
 h1 {
   margin-bottom: 5rem;
 
   letter-spacing: 2px;
 
-  font-family: basier_circlebold;
   font-size: 4rem;
   line-height: 4rem;
 }
@@ -69,7 +70,6 @@ h2 {
 
   letter-spacing: 1px;
 
-  font-family: basier_circlebold;
   font-size: 2rem;
   font-style: normal;
   line-height: 2rem;
@@ -80,7 +80,6 @@ h3 {
 
   letter-spacing: 1px;
 
-  font-family: basier_circlebold;
   font-size: 2rem;
   line-height: 2rem;
 }
@@ -90,16 +89,11 @@ h4 {
 
   letter-spacing: 2.5px;
 
-  font-family: basier_circlebold;
   font-size: 1.5rem;
   line-height: 2rem;
 }
 
 h5 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-
-  font-family: basier_circlesemibold;
   font-size: 1rem;
   line-height: 2rem;
 }
@@ -141,6 +135,29 @@ a:focus {
 
 }
 
+/* new navbar */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+
+  margin-left: 8rem;
+}
+
+.navbar .logo {
+  max-width: 120px;
+}
+
+.navbar p {
+  color: #93a4aa;
+  text-align: center;
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
 /* Navbar */
 #navbar {
   transition: top 0.5s;
@@ -167,43 +184,6 @@ a:focus {
   width: 90%;
   max-width: 1000px;
   margin: 25px auto;
-}
-
-ul.navbar-black {
-  position: fixed;
-
-  width: 100%;
-  margin: 0;
-  padding-top: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-
-  list-style-type: none;
-
-  background-color: #1A1E23;
-}
-
-.navbar-black li,
-.navbar-black p {
-  display: inline;
-  float: right;
-
-  margin: 2px;
-  /* padding: 1rem; */
-
-  letter-spacing: 2px;
-
-  color: #fff;
-
-  line-height: 0;
-}
-
-.navbar-black a {
-  display: block;
-
-  margin-right: 2rem;
-
-  text-decoration: none;
 }
 
 .portrait {
@@ -359,38 +339,6 @@ ul.navbar-black {
   background-color: #2962FF;
 }
 
-.btn-secondary,
-.btn-secondary:focus {
-  margin-left: 1.5rem;
-  padding-top: .5rem;
-  padding-right: 1.5rem;
-  padding-bottom: .5rem;
-  padding-left: 1.5rem;
-
-  transition: all .2s ease-in-out;
-  text-decoration: none;
-  text-transform: uppercase;
-
-  color: #1A1E23;
-  border: .1rem;
-  border-style: solid;
-  border-color: #1A1E23;
-  border-radius: 2rem;
-  background-color: transparent;
-}
-
-.btn-secondary:hover {
-  padding-right: 2.5rem;
-  padding-left: 2.5rem;
-
-  transition: all .2s ease-in-out;
-  text-decoration: none;
-
-  color: #2962FF;
-  border-color: #1A1E23;
-  background-color: #1A1E23;
-}
-
 .btn-margin {
   margin-top: 3rem;
 }
@@ -515,42 +463,8 @@ video {
   margin-left: auto;
 }
 
-#navbar-secondary ul {
-  overflow: hidden;
-
-  margin-top: 3rem;
-  padding: 0;
-
-  list-style-type: none;
-}
-
-#navbar-secondary p {
-  margin-top: 3rem;
-  margin-right: 0rem;
-  margin-bottom: 0rem;
-  margin-left: 0rem;
-}
-
-#navbar-secondary li {
-  float: right;
-
-  margin-right: 0.5rem;
-  margin-left: 0.5rem;
-
-}
-
-#navbar-secondary a {
-  display: block;
-
-  text-align: right;
-  text-decoration: none;
-}
-
 .case-block-small {
-  padding-top: 3rem;
-  padding-right: 5rem;
-  padding-bottom: 3rem;
-  padding-left: 5rem;
+  padding: 3rem 5rem;
 }
 
 #logo-creation h2 {
@@ -603,8 +517,19 @@ video {
   line-height: 2.00rem;
 }
 
+.project-container-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 
-@media only screen and (max-width: 767px) and (min-width: 0px) {
+  /* might not be needed if we already have a body padding */
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+/* mobile css */
+@media only screen and (max-width: 768px) and (min-width: 0px) {
   h1 {
     margin-bottom: 2.25rem;
 
@@ -677,8 +602,7 @@ video {
     margin-right: 25px;
     margin-left: 25px;
   }
-  .btn-primary,
-  .btn-secondary {
+  .btn-primary {
     display: flex;
     justify-content: center;
     padding-left: 0.5rem;
@@ -686,12 +610,6 @@ video {
 
     max-width: 200px;
   }
-  /* .w3-col p {
-    margin-top: 2.25rem;
-    margin-bottom: 2.25rem;
-
-    color: #93a4aa;
-  } */
   .typed-cursor {
     animation: blink .75s infinite;
 
@@ -732,74 +650,43 @@ video {
   #about h3 {
     font-size: 1.75rem;
   }
-  /* Navbar */
-  #navbar {
-    transition: top 0.5s;
-  }
-  ul.navbar-black {
-    position: fixed;
-
-    width: 100%;
-    margin: 0;
-    padding-top: 1.5rem;
-    padding-right: 0rem;
-    padding-bottom: 1.5rem;
-
-    list-style-type: none;
-
-    background-color: #1A1E23;
-  }
-  .navbar-black li,
-  .navbar-black p {
-    display: inline;
-    float: right;
-
-    margin: 1px;
-
-    letter-spacing: 2px;
-
-    color: #fff;
-
-    line-height: 0;
-  }
-  .navbar-black a {
-    display: block;
-
-    text-decoration: none;
-  }
-  #navbar-secondary ul {
-    overflow: hidden;
-
-    margin: 0;
-    margin-top: 0rem;
-    padding: 0;
-
-    list-style-type: none;
-  }
-  #navbar-secondary p {
-    margin-top: 1.5rem;
-    margin-right: 0rem;
-    margin-bottom: 1.5rem;
-    margin-left: 0rem;
-  }
-  #navbar-secondary li {
-    float: none;
-
-    margin-right: 1rem;
-    margin-left: 1rem;
-
-  }
-  #navbar-secondary a {
-    display: block;
-
-    text-align: center;
-    text-decoration: none;
-  }
   .case-block-small {
     padding-top: 1rem;
     padding-bottom: 1rem;
   }
+  .project-container-flex {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
 
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    text-align: center;
+  }
+  /* new navbar */
+  .navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+
+    margin-left: 0px;
+    margin-bottom: 1rem;
+  }
+  .navbar .logo {
+    max-width: 120px;
+  }
+  .navbar p {
+    color: #93a4aa;
+    text-align: center;
+  }
+  .navbar a {
+    text-decoration: none;
+  }
 }
 
 /* end of media */

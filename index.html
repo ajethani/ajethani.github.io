@@ -8,8 +8,6 @@
   <title>Anil Jethani</title>
   <!-- Add icon to tab -->
   <link rel="icon" type="image/png" href="./img/asset/icon2.png" />
-  <!-- W3.css -->
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <!-- Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- font awesome -->
@@ -18,6 +16,10 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
   <!-- AOS -->
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- W3.css -->
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <!-- Linking utility.css -->
+  <link href="./css/utility.css" type="text/css" rel="stylesheet" />
   <!-- Linking main.css -->
   <link href="./css/main.css" type="text/css" rel="stylesheet" />
   <!-- Match address bar color -->
@@ -55,7 +57,7 @@
             <br>
             In December 2017, I received my B.S. in computer science from University
             of California, San Diego.
-            
+
             <br> <br>
             I believe that my job is more than just designing interfaces. My job is
             to build bridges between the people who
@@ -75,8 +77,8 @@
         </div>
         <div class="project-container">
           <div data-aos="fade-up">
-            <h3 style="margin-bottom:0;">Sererra Webapp Redesign</h3>
-            <h5 style="margin-top:0;">Lead UI/UX Design</h5>
+            <h3 class="m-bottom-0">Sererra Webapp Redesign</h3>
+            <h5 class="m-top-0">Lead UI/UX Design</h5>
             <p>
               Updating the web experience and bringing a fresh approach to the Sererra brand. Launching early 2020.
             </p>
@@ -88,75 +90,57 @@
       </div>
     </div>
 
-    <!-- CARS DIRECT -->
-    <div class="case-block ">
-      <div class="w3-row-padding">
-        <div class="w3-col l6 m6 s12">
-          <img class="w-100" style="border-radius:2rem;" src="./img/asset/carsdirect/carsdirectdisplay4.png" alt="" data-aos="fade-up">
+    <!-- Cars Direct -->
+    <div class="case-block">
+      <div class="project-container-flex">
+        <!-- image -->
+        <div class="">
+          <img class="w-100" src="./img/asset/carsdirect/carsdirectdisplay4.png" alt="" data-aos="fade-up">
         </div>
-        <div class="desc-container">
-          <div id="carsdirect" class="w3-col l6 m6 s12">
-            <a href="https://carsdirect.com" style="text-decoration:none;" target="_blank">
-              <h3>CarsDirect.com</h3>
+        <!-- description -->
+        <div class="">
+          <a href="https://carsdirect.com" style="text-decoration:none;" target="_blank">
+            <h3 class="m-bottom-0">CarsDirect.com</h3>
+          </a>
+          <div data-aos="fade-up">
+            <h5 class="m-top-0 m-bottom-2">UI/UX Design</h5>
+            <p>
+              An American online automotive research portal and car buying service. I implemented
+              an on-the-go feature where user can enter the VIN, mileage,
+              price of the car and base on that we can inform the user whether the
+              car is worth buying.
+            </p>
+          </div>
+          <div class="btn-margin" data-aos="fade-up">
+            <a href="https://aniljethani.com/carsdirect.html" target="_blank" class="btn-primary">
+              Read case study
             </a>
-            <div data-aos="fade-up">
-              <h5>UI/UX Design</h5>
-              <p>
-                An American online automotive research portal and car buying service. I implemented
-                an on-the-go feature where user can enter the VIN, mileage,
-                price of the car and base on that we can inform the user whether the
-                car is worth buying.
-              </p>
-            </div>
-            <div class="btn-margin" data-aos="fade-up">
-              <a href="https://aniljethani.com/carsdirect.html" target="_blank" class="btn-primary">
-                Read case study
-              </a>
-            </div>
           </div>
         </div>
       </div>
     </div>
 
-    <!-- GLOBE -->
-    <!-- <div id="concepts" class="case-block center">
-      <div data-aos="fade-up">
-        <img class="w-75 center-object" src="./img/asset/globe/finalglobedesign.png" alt="">
-      <div data-aos="fade-up">
-        <h3 style="margin-bottom:0;">Globe Website Redesign</h3>
-        <h5 style="margin-top:0;">UI/UX Design</h5>
-        <p>
-          Improving the perception of an iconic global skate brand by reimagining
-          the company's online shopping experience.
-        </p>
-      </div>
-      </div>
-      <div class="btn-margin" data-aos="fade-up">
-        <a class="btn-primary">COMING SOON</a>
-      </div>
-    </div> -->
-
-    <!-- SHAREDROBE -->
-    <div class="case-block ">
-      <div class="w3-row-padding">
-        <div class="w3-col l6 m6 s12" data-aos="fade-up">
-          <img class="w-100" style="border-radius:2rem;" src="./img/asset/sharedrobe/sharedrobemainpage.png" alt="" data-aos="fade-up">
+    <!-- ShareDrobe -->
+    <div class="case-block">
+      <div class="project-container-flex">
+        <!-- image -->
+        <div style="max-width:1080px;">
+          <img class="w-100" src="./img/asset/sharedrobe/sharedrobemainpage.png" alt="" data-aos="fade-up">
         </div>
-        <div class="desc-container">
-          <div id="sharedrobe" class="w3-col l6 m6 s12">
-            <div data-aos="fade-up">
-              <h3>ShareDrobe</h3>
-              <h5>Product Design</h5>
-              <p>
-                Clothing rental app design concept where users can rent or lend clothes at an affordable price.
-                ShareDrobe was conceptualized during my time at UC San Diego.
-              </p>
-            </div>
-            <div class="btn-margin" data-aos="fade-up">
-              <a href="https://aniljethani.com/sharedrobe.html" target="_blank" class="btn-primary">
-                Read case study
-              </a>
-            </div>
+        <!-- description -->
+        <div class="">
+          <div data-aos="fade-up">
+            <h3 class="m-bottom-0">ShareDrobe</h3>
+            <h5 class="m-top-0 m-bottom-2">Product Design</h5>
+            <p>
+              Clothing rental app design concept where users can rent or lend clothes at an affordable price.
+              ShareDrobe was conceptualized during my time at UC San Diego.
+            </p>
+          </div>
+          <div class="btn-margin" data-aos="fade-up">
+            <a href="https://aniljethani.com/sharedrobe.html" target="_blank" class="btn-primary">
+              Read case study
+            </a>
           </div>
         </div>
       </div>
@@ -170,8 +154,8 @@
         </div>
         <div class="project-container">
           <div data-aos="fade-up">
-            <h4 style="margin-bottom:0;">CRAVINGS</h4>
-            <h5 style="margin-top:0;">UI/UX Design</h5>
+            <h4 class="m-bottom-0">CRAVINGS</h4>
+            <h5 class="m-top-0">UI/UX Design</h5>
             <p>
               A concept app inspired by Crissy Tiegen's Cravings cookbook.
             </p>
@@ -209,6 +193,31 @@
         </div>
       </div>
     </div>
+
+    <!-- new finals calculator -->
+    <!-- <div class="case-block">
+      <div class="project-container-flex">
+        <div style="">
+          <img class="w-100" src="./img/asset/finalscalc/finalscalc.png" alt="" data-aos="fade-up">
+        </div>
+        <div class="">
+          <div data-aos="fade-up">
+            <h3 class="m-bottom-0">Finals Calculator</h3>
+            <h5 class="m-top-0 m-bottom-2">Android App</h5>
+            <p>
+              Finals Calculator is a fast and minimalistic material design calculator
+              students to easily calculate the grades they need to achieve the grades
+              they want in their finals.
+            </p>
+          </div>
+          <div class="btn-margin" data-aos="fade-up">
+            <a href="https://play.google.com/store/apps/details?id=com.vanillanil.finalscalculator" target="_blank" class="btn-primary">
+              Google play store
+            </a>
+          </div>
+        </div>
+      </div>
+    </div> -->
   </div>
 
   <!-- CONCEPT WORK -->
@@ -217,7 +226,7 @@
     <!-- AUDI -->
     <div data-aos="fade-up">
       <div class="project-img">
-        <img class="w-75 center-object" src="./img/asset/audi/AudiDisplay.png" alt="">
+        <img class="w-100 center-object" src="./img/asset/audi/AudiDisplay.png" alt="">
       </div>
       <div class="project-container">
         <div data-aos="fade-up">
