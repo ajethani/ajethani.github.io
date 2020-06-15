@@ -14,36 +14,6 @@
       format("truetype");
 }
 @font-face {
-  font-family: "basier_circlemedium";
-  font-weight: normal;
-  font-style: normal;
-
-  src: url("../fonts/Basier_Circle_Webfont/Basier-Circle-medium-webfont/basiercircle-medium-webfont.eot");
-  src: url("../fonts/Basier_Circle_Webfont/Basier-Circle-medium-webfont/basiercircle-medium-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/Basier_Circle_Webfont/Basier-Circle-medium-webfont/basiercircle-medium-webfont.woff2")
-      format("woff2"),
-    url("../fonts/Basier_Circle_Webfont/Basier-Circle-medium-webfont/basiercircle-medium-webfont.woff")
-      format("woff"),
-    url("../fonts/Basier_Circle_Webfont/Basier-Circle-medium-webfont/basiercircle-medium-webfont.ttf")
-      format("truetype");
-}
-@font-face {
-  font-family: "basier_circlesemibold";
-  font-weight: normal;
-  font-style: normal;
-
-  src: url("../fonts/Basier_Circle_Webfont/Basier-Circle-semibold-webfont/basiercircle-semibold-webfont.eot");
-  src: url("../fonts/Basier_Circle_Webfont/Basier-Circle-semibold-webfont/basiercircle-semibold-webfont.eot?#iefix")
-      format("embedded-opentype"),
-    url("../fonts/Basier_Circle_Webfont/Basier-Circle-semibold-webfont/basiercircle-semibold-webfont.woff2")
-      format("woff2"),
-    url("../fonts/Basier_Circle_Webfont/Basier-Circle-semibold-webfont/basiercircle-semibold-webfont.woff")
-      format("woff"),
-    url("../fonts/Basier_Circle_Webfont/Basier-Circle-semibold-webfont/basiercircle-semibold-webfont.ttf")
-      format("truetype");
-}
-@font-face {
   font-family: "basier_circlebold";
   font-weight: normal;
   font-style: normal;
@@ -152,21 +122,36 @@ a:focus {
 }
 
 /* new navbar */
+.navbar-container {
+  width: 90vw;
+  margin: 2rem auto;
+}
+
 .navbar {
   display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
   align-items: center;
-
-  margin-left: 8vh;
+  text-align: center;
 
   .logo {
-    max-width: 120px;
+    flex: 1;
+
+    img {
+      max-width: 100px;
+    }
   }
 
-  p {
+  .description {
+    flex: 1;
     color: #93a4aa;
-    text-align: center;
+  }
+
+  .nav-links {
+    flex: 1;
+
+    li {
+      display: inline;
+      list-style-type: none;
+    }
   }
 
   a {
@@ -521,11 +506,6 @@ video {
   font-size: 1rem;
 }
 
-#links {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-}
-
 #about h3 {
   margin-top: 0rem;
 }
@@ -687,23 +667,39 @@ video {
   /* new navbar */
   .navbar {
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
+    flex-direction: column;
+    // flex-wrap: wrap;
     align-items: center;
 
-    margin-left: 0px;
-    margin-bottom: 1rem;
-  }
-  .navbar .logo {
-    max-width: 120px;
-  }
-  .navbar p {
-    color: #93a4aa;
-    text-align: center;
-  }
-  .navbar a {
-    text-decoration: none;
+    .logo {
+      flex: 1;
+    }
+
+    .description {
+      flex: 1;
+    }
+
+    .nav-links {
+      flex: 1;
+
+      ul {
+        padding: 0;
+      }
+
+      li {
+        display: inline;
+        list-style-type: none;
+      }
+    }
+
+    p {
+      color: #93a4aa;
+      text-align: center;
+    }
+
+    a {
+      text-decoration: none;
+    }
   }
 }
 
