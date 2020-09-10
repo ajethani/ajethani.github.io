@@ -3,14 +3,28 @@
   font-weight: normal;
   font-style: normal;
   src: url("../fonts/Basier_Circle_Webfont/Basier-Circle-regular-webfont/basiercircle-regular-webfont.eot");
-  src: url("../fonts/Basier_Circle_Webfont/Basier-Circle-regular-webfont/basiercircle-regular-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Basier_Circle_Webfont/Basier-Circle-regular-webfont/basiercircle-regular-webfont.woff2") format("woff2"), url("../fonts/Basier_Circle_Webfont/Basier-Circle-regular-webfont/basiercircle-regular-webfont.woff") format("woff"), url("../fonts/Basier_Circle_Webfont/Basier-Circle-regular-webfont/basiercircle-regular-webfont.ttf") format("truetype");
+  src: url("../fonts/Basier_Circle_Webfont/Basier-Circle-regular-webfont/basiercircle-regular-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Basier_Circle_Webfont/Basier-Circle-regular-webfont/basiercircle-regular-webfont.woff2")
+      format("woff2"),
+    url("../fonts/Basier_Circle_Webfont/Basier-Circle-regular-webfont/basiercircle-regular-webfont.woff")
+      format("woff"),
+    url("../fonts/Basier_Circle_Webfont/Basier-Circle-regular-webfont/basiercircle-regular-webfont.ttf")
+      format("truetype");
 }
 @font-face {
   font-family: "basier_circlebold";
   font-weight: normal;
   font-style: normal;
   src: url("../fonts/Basier_Circle_Webfont/Basier-Circle-bold-webfont/basiercircle-bold-webfont.eot");
-  src: url("../fonts/Basier_Circle_Webfont/Basier-Circle-bold-webfont/basiercircle-bold-webfont.eot?#iefix") format("embedded-opentype"), url("../fonts/Basier_Circle_Webfont/Basier-Circle-bold-webfont/basiercircle-bold-webfont.woff2") format("woff2"), url("../fonts/Basier_Circle_Webfont/Basier-Circle-bold-webfont/basiercircle-bold-webfont.woff") format("woff"), url("../fonts/Basier_Circle_Webfont/Basier-Circle-bold-webfont/basiercircle-bold-webfont.ttf") format("truetype");
+  src: url("../fonts/Basier_Circle_Webfont/Basier-Circle-bold-webfont/basiercircle-bold-webfont.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/Basier_Circle_Webfont/Basier-Circle-bold-webfont/basiercircle-bold-webfont.woff2")
+      format("woff2"),
+    url("../fonts/Basier_Circle_Webfont/Basier-Circle-bold-webfont/basiercircle-bold-webfont.woff")
+      format("woff"),
+    url("../fonts/Basier_Circle_Webfont/Basier-Circle-bold-webfont/basiercircle-bold-webfont.ttf")
+      format("truetype");
 }
 html {
   scroll-behavior: smooth;
@@ -202,6 +216,7 @@ a:focus {
 .case-block {
   padding-top: 9rem;
   padding-bottom: 9rem;
+  background-color: #fff;
 }
 
 .dark {
@@ -413,6 +428,7 @@ video {
 
 .case-block-small {
   padding: 3rem 5rem;
+  background-color: #fff;
 }
 
 #logo-creation h2 {
@@ -579,7 +595,7 @@ video {
   }
 
   #interested p,
-#about p {
+  #about p {
     font-size: 1rem;
     line-height: 1.5rem;
   }
